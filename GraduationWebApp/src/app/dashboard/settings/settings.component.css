@@ -1,0 +1,92 @@
+.terminal-settings {
+  width: 96%;
+  background-color: #d4d4d448;
+  border-radius: 8px;
+  padding: 1% 2% 2% 2%;
+}
+
+.terminal-settings h3 {
+  color: #7A7A7A;
+  font-size: 19px;
+  margin-top: 0;
+}
+
+.terminal-settings .block {
+  width: 30%;
+}
+
+.terminal-settings .block .franchise {
+  height: 40px;
+  border: none;
+  border-radius: 5px;
+  width: 200px;
+  margin: 10px 0;
+}
+
+.terminal-settings .block #logo {
+  display: none;
+}
+
+.terminal-settings .block label {
+  height: 40px;
+  border: none;
+  border-radius: 5px;
+  width: 125px;
+  margin: 10px 0;
+  background-color: #fff;
+  text-align: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  vertical-align: middle;
+}
+
+.terminal-settings .block input {
+  padding-left: 13px;
+  outline: none;
+  font-size: 16px;
+  color: #474747;
+}
+
+.terminal-settings .block .color {
+  height: 45px;
+  margin: 10px 0;
+}
+
+.terminal-settings .block .color input {
+  border: none;
+  border-radius: 5px 0 0 5px;
+  width: 150px;
+  height: 100%;
+}
+
+.terminal-settings .block .color .tester {
+  background-color: #818181;
+  width: 50px;
+  height: 100%;
+  border-radius: 0 5px 5px 0;
+}
+
+.terminal-settings .block select {
+  height: 40px;
+  border: none;
+  border-radius: 5px;
+  width: 125px;
+  margin: 10px 0;
+  background-color: #fff;
+  text-align: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  vertical-align: middle;
+}
+
+.terminal-settings .submit button {
+  background-color: #949494;
+  height: 40px;
+  width: 94px;
+  border-radius: 4px;
+  border: 0;
+  color: #fff;
+}
+/*# sourceMappingURL=settings.component.css.map */

@@ -1,0 +1,91 @@
+<div class="dashboard">
+    <!--a block has a pos and its devices-->
+    <h3>Dashboard</h3>
+    <div class="block">
+        <div class="add-pos" fxLayout>
+            <h3>POS</h3>
+            <div class="splitter"></div>
+            <button class="add" (click)="AddPOSDialog()" >
+                <mat-icon>add</mat-icon>
+            </button>
+        </div>
+        <div class="pos" *ngFor="let pos of POSes; index as i">
+            <div class="pos-panel" fxLayout>
+                <div class="info">
+                    <div class="name">
+                        <p>{{pos.name}}</p>
+                    </div>
+                    <div class="serial">
+                        <p>{{pos.serial}}</p>
+                    </div>
+                    <div class="state" fxLayoutAlign="start center">
+                        <div class="state-color red" *ngIf="pos.state == 1"></div>
+                        <div class="state-color green" *ngIf="pos.state == 2"></div>
+                        <div class="state-color yellow" *ngIf="pos.state == 3"></div>
+                         <p>{{pos.posState}}</p>
+                    </div>
+                </div>
+                <div class="splitter"></div>
+                <div class="pos-controls">
+                    
+                    <div style="height: 100%;" fxLayout=Column>
+                        <button class='delete' color="warn" (click)='deletePOS(pos.serial)' >
+                            <mat-icon>close</mat-icon>
+                        </button>
+                        <button class="edit" color="green" >
+                            <mat-icon>edit</mat-icon>
+                        </button>
+                    </div>
+                </div>
+            </div>
+            <p></p>
+            <div class="terminals" >
+                <mat-accordion>
+                        <mat-expansion-panel class="expansion">
+                            <mat-expansion-panel-header>
+                                <mat-panel-title>
+                                    <p>Terminals</p>
+                                </mat-panel-title>
+                            </mat-expansion-panel-header>
+                            <p></p>
+                            <div fxLayout="row">
+                                <div class="splitter"></div>
+                                <button class="add" style="background-color: rgb(46, 253, 81); color: #fff;" (click)="AddTerminal(pos)" >
+                                    <mat-icon>add</mat-icon>
+                                </button>
+                            </div>
+                            <p></p>
+                            <div >
+                                <div class="terminals-container" >
+                                    <div class="ter-body" fxLayout *ngFor="let terminal of pos.terminals">
+                                        <div class="ter-info">
+                                            <p class="id">{{terminal.id}}</p>
+                                            <p class="serial">{{terminal.serial}}</p>
+                                            <p class="Table">Tabel: {{terminal.table}}</p>
+                                            <div class="state" fxLayoutAlign="start center">
+                                                <div class="state-color red" *ngIf="terminal.state == 1"></div>
+                                                <div class="state-color green" *ngIf="terminal.state == 2"></div>
+                                                <div class="state-color yellow" *ngIf="terminal.state == 3"></div>
+                                                <p>{{terminal.terminalState}}</p>
+                                            </div>
+                                        </div>
+                                        <div class="splitter"></div>
+                                        <div class="ter-controls">
+                                            <div style="height: 100%;" fxLayout=Column>
+                                                <button class='delete' color="warn" (click) = "deleteTerminal(pos.serial,terminal.serial)" >
+                                                    <mat-icon>close</mat-icon>
+                                                </button>
+                                                <button class="edit" color="green" >
+                                                    <mat-icon>edit</mat-icon>
+                                                </button>
+                                            </div>
+                                        </div>
+                                </div>
+                            </div>
+                        </div>
+                    </mat-expansion-panel>
+                </mat-accordion>
+            </div>
+        </div>
+    </div>
+</div>

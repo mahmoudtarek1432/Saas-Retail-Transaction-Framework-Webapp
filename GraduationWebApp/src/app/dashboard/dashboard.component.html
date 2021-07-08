@@ -1,0 +1,29 @@
+<app-background></app-background>
+<div class="content">
+    <div class="side-navigation">
+        <div class="padding" fxLayout="column">
+            <h3></h3>
+            <p class="menu">menu</p>
+            <ul>
+                <li routerLink="./Dashboard" routerLinkActive="active">Dashboard</li>
+                <li routerLink="./Orders" routerLinkActive="active">Orders</li>
+                <li routerLink="./Settings" routerLinkActive="active">Settings</li>
+                <li routerLink="./Menu" routerLinkActive="active">Menu</li>
+            </ul>
+            <div class="splitter"></div>
+            <div class="logout">
+                <button (click)="LogOut()">logout</button>
+            </div>
+        </div>
+    </div>
+    <div class="body">
+        <div class="content-a">
+        <div class="top" fxLayoutAlign="start center">
+            <h3>{{Setting.brandName}}</h3>
+            <div class="splitter"></div>
+            <img src="{{globals.baseUrlImage+'/images/'+Setting.icon}}" alt="">
+        </div>
+        <router-outlet></router-outlet>
+        </div>
+    </div>
+</div>

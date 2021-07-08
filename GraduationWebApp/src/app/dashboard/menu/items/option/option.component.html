@@ -1,0 +1,45 @@
+<mat-accordion>
+    <mat-expansion-panel class="expansion option">
+        <mat-expansion-panel-header>
+            <mat-panel-title>
+                <div style="width: 100%;" fxLayout="row" fxLayoutAlign="start center">
+                    <p >Options</p>
+                    <div class="splitter"></div>
+                    <button mat-button style="color: rgb(80, 80, 80);" (click) ="openOptionDialog()">
+                        <mat-icon>add</mat-icon>
+                    </button>
+                </div>
+            </mat-panel-title>
+        </mat-expansion-panel-header>
+        <p></p>
+        <p></p>
+        <div  *ngFor="let Option of ItemOptions">
+            
+            <div class="item" fxLayout="column">
+                <div  fxLayout="row">
+                    <div>
+                        <div fxLayout="row">
+                            <div class="block">
+                                <p  style="margin: 0;">Item Extra Id: {{Option.id}}</p>
+                                <p  style="margin: 0;">Code: {{Option.code}}</p>
+                                <p  style="margin: 0;">Name: {{Option.name}}</p>
+                                <p style="margin: 0;">Price: {{Option.price}}</p>
+                            </div>
+                        </div>
+                    </div>
+                    <span class="splitter"></span>
+                    <div style="height: 100%;" fxLayout=Column>
+                        <button class='delete' color="warn"  (click) ="deleteElement(Option.id,4,ItemOptions)">
+                            <mat-icon>close</mat-icon>
+                        </button>
+                        <button class="edit" color="green" (click) = "EditElement(Option)">
+                            <mat-icon>edit</mat-icon>
+                        </button>
+                    </div>
+                </div>
+        
+            </div>
+        </div>
+        
+    </mat-expansion-panel>
+</mat-accordion>

@@ -1,0 +1,753 @@
+@-webkit-keyframes AnimateBackGroundWaveLarge {
+  from {
+    background-position: 0px 0;
+  }
+  to {
+    background-position: 2624px 0;
+  }
+}
+
+@keyframes AnimateBackGroundWaveLarge {
+  from {
+    background-position: 0px 0;
+  }
+  to {
+    background-position: 2624px 0;
+  }
+}
+
+@-webkit-keyframes AnimateBackGroundWaveMid {
+  from {
+    background-position: 0px 0;
+  }
+  to {
+    background-position: 1730px 0;
+  }
+}
+
+@keyframes AnimateBackGroundWaveMid {
+  from {
+    background-position: 0px 0;
+  }
+  to {
+    background-position: 1730px 0;
+  }
+}
+
+@-webkit-keyframes AnimateBackGroundWaveSmall {
+  from {
+    background-position: 0px 0;
+  }
+  to {
+    background-position: 1000px 0;
+  }
+}
+
+@keyframes AnimateBackGroundWaveSmall {
+  from {
+    background-position: 0px 0;
+  }
+  to {
+    background-position: 1000px 0;
+  }
+}
+
+.home {
+  position: relative;
+  width: 100%;
+}
+
+.home .background {
+  width: 100%;
+  height: 1200px;
+  position: absolute;
+}
+
+.home .background .image {
+  background-image: url("../../assets/background.svg");
+  width: 100%;
+  height: 100%;
+  background-size: 250px;
+  background-repeat: repeat;
+}
+
+.home .background .filter {
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(255, 255, 255, 0)), to(#fff));
+  background-image: linear-gradient(to bottom, rgba(255, 255, 255, 0), #fff);
+}
+
+.home .content {
+  position: absolute;
+  width: 100%;
+}
+
+.home .content header .nav-bar {
+  width: 100%;
+  background-color: #fff;
+  padding: 5px 40px;
+  margin-top: 20px;
+  height: 65px;
+  position: relative;
+  border-radius: 55px;
+  -webkit-box-shadow: 0px 5px 10px 0px rgba(236, 236, 236, 0.486);
+          box-shadow: 0px 5px 10px 0px rgba(236, 236, 236, 0.486);
+}
+
+.home .content header .nav-bar .icon {
+  text-transform: capitalize;
+  font-weight: 600;
+  font-size: 29px;
+  margin-left: 10px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  color: #808080;
+}
+
+.home .content header .nav-bar .icon p {
+  margin: 0;
+}
+
+.home .content header .nav-bar ul {
+  text-decoration: none;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  color: #808080;
+}
+
+.home .content header .nav-bar ul li {
+  text-decoration: none;
+  font-size: 18px;
+  margin-left: 25px;
+  position: relative;
+}
+
+.home .content header .nav-bar ul .active {
+  color: rgba(59, 206, 167, 0.959);
+}
+
+.home .content header .nav-bar ul .activ::after {
+  position: absolute;
+  content: "";
+  left: 0;
+  top: 112%;
+  width: 100%;
+  height: 2px;
+  background-color: rgba(59, 206, 167, 0.959);
+}
+
+.home .content header .nav-bar .sign-in {
+  margin: 0 40px 0 40px;
+}
+
+.home .content header .nav-bar .slider {
+  display: none;
+  border: none;
+  background-color: transparent;
+  height: 59px;
+  width: 63px;
+  position: absolute;
+  right: 5px;
+  top: 6px;
+}
+
+.home .content header .nav-bar .slider img {
+  width: 100%;
+  height: 100%;
+  color: #41ecbede;
+}
+
+.home .content header .nav-bar .slider:hover {
+  top: 3px;
+}
+
+.home .content .body {
+  margin-top: 100px;
+}
+
+.home .content .body .hook {
+  height: 400px;
+}
+
+.home .content .body .hook .container {
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.home .content .body .hook .text {
+  width: 50%;
+}
+
+.home .content .body .hook .text h3 {
+  color: #342D54;
+  font-size: 36px;
+  width: 80%;
+  margin-top: 0;
+  margin-bottom: 30px;
+}
+
+.home .content .body .hook .text p {
+  color: #6D6D6D;
+  font-size: 21px;
+  width: 82%;
+}
+
+.home .content .body .hook .text .learn-more button {
+  background-color: rgba(55, 225, 208, 0.534);
+  -webkit-box-shadow: rgba(122, 255, 242, 0.767);
+          box-shadow: rgba(122, 255, 242, 0.767);
+  width: 160px;
+  height: 42px;
+  border-radius: 50px;
+}
+
+.home .content .body .hook .text .learn-more .round-home-button:hover {
+  -webkit-box-shadow: 6px 5px 12px 0px rgba(122, 255, 242, 0.767);
+          box-shadow: 6px 5px 12px 0px rgba(122, 255, 242, 0.767);
+  background-color: rgba(55, 225, 208, 0.534);
+}
+
+.home .content .body .hook .illustration {
+  width: 50%;
+  position: relative;
+}
+
+.home .content .body .hook .illustration img {
+  position: absolute;
+  top: 0;
+  left: 165px;
+  width: 500px;
+}
+
+.home .content .body .benifits {
+  width: 100%;
+  margin-top: 60;
+  height: 1500px;
+  position: relative;
+}
+
+.home .content .body .benifits .background-wave {
+  width: 100%;
+  position: relative;
+}
+
+.home .content .body .benifits .background-wave .wave1 {
+  position: absolute;
+  z-index: 0;
+  height: 1500px;
+  width: 100%;
+  top: 0;
+  left: 0;
+  background-size: 1730px;
+  background-image: url("../../assets/MiddleWave1Adjust.svg");
+  -webkit-animation: AnimateBackGroundWaveMid 50s linear infinite;
+          animation: AnimateBackGroundWaveMid 50s linear infinite;
+  background-repeat: repeat-x;
+}
+
+.home .content .body .benifits .background-wave .wave2 {
+  position: absolute;
+  height: 1500px;
+  z-index: 0;
+  width: 100%;
+  top: 0;
+  left: 0;
+  background-size: 1730px;
+  background-image: url("../../assets/MiddleWave2Adjust.svg");
+  background-repeat: repeat-x;
+  -webkit-animation: AnimateBackGroundWaveMid 30s linear infinite;
+          animation: AnimateBackGroundWaveMid 30s linear infinite;
+}
+
+.home .content .body .benifits .content {
+  margin-top: 365px;
+}
+
+.home .content .body .benifits .content .header {
+  color: #fff;
+}
+
+.home .content .body .benifits .content .header h3 {
+  font-weight: 400;
+  font-size: 30px;
+  margin-bottom: 10px;
+}
+
+.home .content .body .benifits .content .header p {
+  margin-top: 10px;
+  font-size: 18px;
+}
+
+.home .content .body .benifits .content .cards {
+  margin-top: 15px;
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: auto auto;
+      grid-template-columns: auto auto;
+  -webkit-column-gap: 70px;
+          column-gap: 70px;
+  margin: 0 9%;
+  row-gap: 65px;
+}
+
+.home .content .body .benifits .content .cards .block {
+  background-color: rgba(255, 255, 255, 0.527);
+  -webkit-backdrop-filter: blur(5px);
+          backdrop-filter: blur(5px);
+  padding: 25px;
+  border-radius: 4px;
+  -webkit-box-shadow: 0px 0px 12px 3px #ebebeb31;
+          box-shadow: 0px 0px 12px 3px #ebebeb31;
+}
+
+.home .content .body .benifits .content .cards .block img {
+  width: 90px;
+  height: 90px;
+}
+
+.home .content .body .benifits .content .cards .block h4 {
+  width: 70%;
+  color: #383838;
+  margin: 0;
+}
+
+.home .content .body .benifits .content .cards .block p {
+  width: 70%;
+  font-size: 14px;
+  color: #585858;
+}
+
+.home .content .body .different {
+  margin: 90px 0;
+  height: 600px;
+}
+
+.home .content .body .different .container {
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.home .content .body .different .text {
+  width: 50%;
+}
+
+.home .content .body .different .text h3 {
+  color: #343647;
+  font-size: 38px;
+}
+
+.home .content .body .different .text p {
+  width: 80%;
+}
+
+.home .content .body .different .text .get-app {
+  margin-top: 40px;
+}
+
+.home .content .body .different .text .get-app button {
+  background-color: #c32af1a6;
+  -webkit-box-shadow: 6px 6px 18px -11px  #ba19e7;
+          box-shadow: 6px 6px 18px -11px  #ba19e7;
+}
+
+.home .content .body .different .text .get-app button:hover {
+  background-color: #bc6ad4d0;
+  -webkit-box-shadow: 6px 5px 10px 2px  #8f54a08f;
+          box-shadow: 6px 5px 10px 2px  #8f54a08f;
+}
+
+.home .content .body .different .illustration {
+  width: 50%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: reverse;
+      -ms-flex-direction: row-reverse;
+          flex-direction: row-reverse;
+}
+
+.home .content .body .different .illustration img {
+  width: 500px;
+}
+
+.home .content .body .web-app-demo {
+  margin-top: 100px;
+  position: relative;
+  height: 1432px;
+}
+
+.home .content .body .web-app-demo .header h3 {
+  color: #272836;
+  font-size: 37px;
+  margin-bottom: 0px;
+}
+
+.home .content .body .web-app-demo .header p {
+  color: #8F8F8F;
+  text-align: center;
+}
+
+.home .content .body .web-app-demo .illustration {
+  overflow: hidden;
+  position: absolute;
+}
+
+.home .content .body .web-app-demo .illustration img {
+  width: 135%;
+  margin-left: -10%;
+}
+
+.home .content .body .integration {
+  height: 400px;
+}
+
+.home .content .body .integration h2 {
+  color: #333446;
+  font-size: 37px;
+  margin-bottom: 10px;
+}
+
+.home .content .body .integration p {
+  color: #9092A8;
+  text-align: center;
+  line-height: 26.6px;
+}
+
+.home .content .body .integration .document {
+  margin-top: 20px;
+}
+
+.home .content .body .integration .document button {
+  background-color: #f85eab;
+  -webkit-box-shadow: 6px 6px 18px -11px  #d34d90;
+          box-shadow: 6px 6px 18px -11px  #d34d90;
+  width: 180px;
+}
+
+.home .content .body .integration .document button:hover {
+  background-color: #f85eab;
+  -webkit-box-shadow: 6px 5px 12px 0px  #d34d90;
+          box-shadow: 6px 5px 12px 0px  #d34d90;
+}
+
+.home .content .body .bottom-wave {
+  width: 100%;
+  height: 329px;
+  position: relative;
+}
+
+.home .content .body .bottom-wave .wave1 {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  background-size: 1730px;
+  background-image: url("../../assets/BottomWave1.svg");
+  -webkit-animation: AnimateBackGroundWaveMid 50s linear infinite !important;
+          animation: AnimateBackGroundWaveMid 50s linear infinite !important;
+  background-repeat: repeat-x;
+}
+
+.home .content .body .bottom-wave .wave2 {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  background-size: 1730px;
+  background-image: url("../../assets/BottomWave2.svg");
+  -webkit-animation: AnimateBackGroundWaveMid 30s linear infinite !important;
+          animation: AnimateBackGroundWaveMid 30s linear infinite !important;
+  background-repeat: repeat-x;
+}
+
+.side-nav {
+  height: 100%;
+  display: none;
+  width: 70%;
+  background-color: white;
+  border-radius: 20px 0 0 20px;
+  position: fixed;
+  right: -70%;
+  padding: 20px;
+}
+
+.side-nav .icon {
+  text-transform: capitalize;
+  font-weight: 600;
+  font-size: 29px;
+  margin-left: 10px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  color: #808080;
+}
+
+.side-nav .icon p {
+  margin: 0;
+}
+
+.side-nav .close img {
+  width: 20px;
+}
+
+.side-nav ul {
+  border-top: 1px solid #e6e6e6;
+  text-decoration: none;
+  margin: 5px 0 0 0;
+  padding: 0 0 0 0;
+  list-style: none;
+  color: #808080;
+}
+
+.side-nav ul p {
+  margin: 0;
+}
+
+.side-nav ul li {
+  text-decoration: none;
+  font-size: 17px;
+  margin-left: 5px;
+  position: relative;
+  margin-top: 10px;
+  height: 52px;
+  border-radius: 10px;
+  padding-left: 15px;
+}
+
+.side-nav ul .active {
+  color: rgba(72, 213, 176, 0.931);
+  background-color: #e7e7e7;
+}
+
+.side-nav button {
+  position: absolute;
+  top: 89%;
+  left: 30%;
+}
+
+.nav-bg {
+  height: 100%;
+  width: 100%;
+  position: fixed;
+  top: 0;
+  left: 0;
+  background-color: rgba(189, 189, 189, 0.513);
+  opacity: 0;
+  display: none;
+}
+
+@media screen and (max-width: 1300px) {
+  .hook .illustration {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  .hook .illustration img {
+    position: initial !important;
+  }
+  .web-app-demo {
+    height: 1304px !important;
+  }
+}
+
+@media screen and (max-width: 1190px) {
+  .container {
+    width: 95%;
+    padding: 0 2.5%;
+  }
+  header .container {
+    padding: 0;
+  }
+  .hook .illustration img {
+    width: 390px !important;
+  }
+  .web-app-demo {
+    height: 1120px !important;
+  }
+}
+
+@media screen and (max-width: 1030px) {
+  .hook .text h3 {
+    font-size: 26px !important;
+  }
+  .hook .text p {
+    font-size: 16px !important;
+    width: 95% !important;
+    color: #a7a7a7;
+  }
+  .cards {
+    margin: 0 !important;
+    margin-top: 15px !important;
+  }
+  .cards .block p {
+    width: 95% !important;
+  }
+  .cards .block h4 {
+    width: 95% !important;
+  }
+  .different .text h3 {
+    font-size: 30px !important;
+  }
+  .different .text p {
+    width: 100% !important;
+    font-size: 16px;
+    color: #535353;
+  }
+  .different .illustration img {
+    width: 350px !important;
+  }
+}
+
+@media screen and (max-width: 810px) {
+  .different .container {
+    -webkit-box-orient: vertical !important;
+    -webkit-box-direction: normal !important;
+        -ms-flex-direction: column !important;
+            flex-direction: column !important;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  .different .container .text {
+    width: 100% !important;
+  }
+  .different .container .text p {
+    text-align: center;
+  }
+  .different .container .text h3 {
+    text-align: center;
+  }
+  .different .container .get-app {
+    text-align: center;
+  }
+  .different .container .illustration {
+    width: 100% !important;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    margin: 30px 0;
+  }
+  .web-app-demo {
+    margin-top: 350px !important;
+    height: 787px !important;
+  }
+}
+
+@media screen and (max-width: 780px) {
+  .web-app-demo h3 {
+    font-size: 29px !important;
+  }
+  .integration h2 {
+    font-size: 29px !important;
+    text-align: center;
+  }
+  .cards {
+    -webkit-column-gap: 37px !important;
+            column-gap: 37px !important;
+    row-gap: 31px !important;
+  }
+  .bottom-wave {
+    height: 180px !important;
+  }
+  .bottom-wave .wave1 {
+    background-size: 1000px !important;
+    -webkit-animation: AnimateBackGroundWaveSmall 50s linear infinite !important;
+            animation: AnimateBackGroundWaveSmall 50s linear infinite !important;
+  }
+  .bottom-wave .wave2 {
+    background-size: 1000px !important;
+    -webkit-animation: AnimateBackGroundWaveSmall 35s linear infinite !important;
+            animation: AnimateBackGroundWaveSmall 35s linear infinite !important;
+  }
+  .hook {
+    height: 500px !important;
+  }
+  .hook .container {
+    -webkit-box-orient: vertical !important;
+    -webkit-box-direction: reverse !important;
+        -ms-flex-direction: column-reverse !important;
+            flex-direction: column-reverse !important;
+  }
+  .hook .container .text {
+    width: 80% !important;
+  }
+  .hook .container .illustration {
+    width: 100% !important;
+    -webkit-box-pack: end !important;
+        -ms-flex-pack: end !important;
+            justify-content: flex-end !important;
+  }
+  .nav-bar {
+    padding: 0px 6px 0 15px !important;
+  }
+  .nav-bar li {
+    font-size: 17px !important;
+  }
+  .nav-bar .sign-in {
+    margin: 0 16px !important;
+  }
+}
+
+@media screen and (max-width: 580px) {
+  .nav-bar ul {
+    display: none !important;
+  }
+  .different .illustration img {
+    width: 316px !important;
+  }
+  .cards {
+    -ms-grid-columns: auto !important;
+        grid-template-columns: auto !important;
+    padding: 0 30px;
+  }
+  .background-wave .wave1 {
+    height: 2624px !important;
+    background-size: 2624px !important;
+    -webkit-animation: AnimateBackGroundWaveLarge 50s linear infinite !important;
+            animation: AnimateBackGroundWaveLarge 50s linear infinite !important;
+  }
+  .background-wave .wave2 {
+    height: 2624px !important;
+    background-size: 2624px !important;
+    -webkit-animation: AnimateBackGroundWaveLarge 30s linear infinite !important;
+            animation: AnimateBackGroundWaveLarge 30s linear infinite !important;
+  }
+  .benifits {
+    height: 1799px !important;
+  }
+  .slider {
+    display: block !important;
+  }
+  .sign-in {
+    display: none !important;
+  }
+}
+
+@media screen and (max-width: 430px) {
+  .cards {
+    padding: 0 !important;
+  }
+}
+/*# sourceMappingURL=home.component.css.map */

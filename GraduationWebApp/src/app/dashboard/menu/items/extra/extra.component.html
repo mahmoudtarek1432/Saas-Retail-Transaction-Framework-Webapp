@@ -1,0 +1,52 @@
+<mat-accordion >
+    <mat-expansion-panel class="expansion extra">
+        <mat-expansion-panel-header>
+            <mat-panel-title>
+                <div style="width: 100%;" fxLayout="row" fxLayoutAlign="start center">
+                    <p>Extras</p>
+                    <div class="splitter"></div>
+                    <button mat-button style="color: rgb(80, 80, 80);" (click) ="openExtraDialog()">
+                        <mat-icon>add</mat-icon>
+                    </button>
+                </div>
+                
+            </mat-panel-title>
+        </mat-expansion-panel-header>
+        <p></p>
+        <p></p>
+        <div *ngFor="let Extra of ItemExtras">
+            <div class="item" fxLayout="column">
+                <div  fxLayout="row">
+                    <div>
+                        <div fxLayout="row">
+                            <div class="image">
+                                <div *ngIf="Extra.image == '';then transparent; else opaque"></div>
+                                <ng-template #opaque> <img style="width: 100%; height:100%;" src=" {{globals.baseUrlImage}}/images/{{Extra.image}}" alt=""></ng-template> 
+                                <ng-template #transparent><img style="width: 100%; height:100%; opacity: 0;" src="" alt=""></ng-template> 
+                            </div>
+                            <div class="block">
+                                <p  style="margin: 0;">Item Extra Id: {{Extra.id}}</p>
+                                <p  style="margin: 0;">Code: {{Extra.code}}</p>
+                                <p  style="margin: 0;">Name: {{Extra.name}}</p>
+                                <p style="margin: 0;">Price: {{Extra.price}}</p>
+                    
+                            </div>
+                        </div>
+
+                    </div>
+                    <span class="splitter"></span>
+                    <div style="height: 100%;" fxLayout=Column>
+                        <button class='delete' color="warn" (click)="deleteElement(Extra.id,3,ItemExtras)">
+                            <mat-icon>close</mat-icon>
+                        </button>
+                        <button class="edit" color="green" (click) ="EditElement(Extra)">
+                            <mat-icon>edit</mat-icon>
+                        </button>
+                    </div>
+                </div>
+        
+            </div>
+        </div>
+        
+    </mat-expansion-panel>
+</mat-accordion>

@@ -1,0 +1,82 @@
+.content .modal {
+  width: 425px;
+  background-color: white;
+  padding: 25px;
+  -webkit-backdrop-filter: blur(5px);
+          backdrop-filter: blur(5px);
+  border-radius: 4px;
+}
+
+.content .modal .header h3 {
+  color: #505050;
+}
+
+.content .modal #message {
+  height: 22px;
+  width: 90%;
+  border-radius: 3px;
+  text-align: center;
+  font-size: 14px;
+  color: #ffffff;
+  background-color: #c6b7fb;
+  margin: 0;
+}
+
+.content .modal form {
+  width: 100%;
+}
+
+.content .modal form .full {
+  width: 100%;
+}
+
+.content .modal form .half {
+  width: 48%;
+}
+
+.content .modal form input, .content .modal form textarea {
+  margin: 2px 0;
+  border: 0;
+  border-radius: 3px;
+  background-color: #fff;
+  color: #505050;
+  height: 40px;
+  outline: none;
+  -webkit-box-shadow: 0px 3px 0px 0px #dddddd;
+          box-shadow: 0px 3px 0px 0px #dddddd;
+}
+
+.content .modal form label {
+  margin-top: 15px;
+  font-size: 11px;
+  color: #878787;
+  text-transform: uppercase;
+}
+
+.content .modal form button {
+  background-color: #a06aff;
+  height: 45px;
+  border-radius: 4px;
+  border: 0;
+  color: #fff;
+}
+
+.content .modal form .inactive {
+  color: #fafafa;
+  background-color: #a3a3a3;
+}
+
+.content .modal form a {
+  text-decoration: none;
+  margin-top: 18px;
+  margin-bottom: 2px;
+  font-size: 12px;
+  color: #878787;
+  cursor: pointer;
+}
+
+.content .modal form .field .error {
+  font-size: 11px;
+  color: #f82f2f;
+}
+/*# sourceMappingURL=add-pos.component.css.map */

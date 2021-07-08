@@ -1,0 +1,672 @@
+@keyframes AnimateBackGroundWaveLarge {
+    from { background-position: 0px 0;}
+    to { background-position: 2624px 0;}
+}
+
+@keyframes AnimateBackGroundWaveMid {
+    from { background-position: 0px 0;}
+    to { background-position: 1730px 0;}
+}
+
+@keyframes AnimateBackGroundWaveSmall {
+    from { background-position: 0px 0;}
+    to { background-position: 1000px 0;}
+}
+
+
+.home{
+    position: relative;
+    width: 100%;
+    .background{
+        width: 100%;
+        height: 1200px;
+        position: absolute;
+        .image{
+            background-image: url("../../assets/background.svg");
+            width: 100%;
+            height: 100%;
+            background-size: 250px;
+            background-repeat: repeat;
+        }
+        .filter{
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            position: absolute;
+            
+            background-image: linear-gradient(to bottom,rgba(255, 255, 255, 0),#fff);
+        }
+    }
+    .content{
+        position: absolute;
+        width: 100%;
+        header{
+            .nav-bar{
+                width: 100%;
+                background-color: #fff;
+                padding: 5px 40px;
+                margin-top: 20px;
+                height: 65px;
+                position: relative;
+                border-radius: 55px;
+                box-shadow: 0px 5px 10px 0px rgba(236, 236, 236, 0.486) ;
+                .icon{
+                    text-transform: capitalize;
+                    font-weight: 600;
+                    font-size: 29px;
+                    margin-left: 10px;
+                    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+                    color: #808080;
+                    p{
+                        margin: 0;
+                    }
+                }
+                ul{
+                    text-decoration: none;
+                    margin: 0;
+                    padding: 0;
+                    list-style: none;
+                    color: #808080;
+                    li{
+                        text-decoration: none;
+                        font-size: 18px;
+                        margin-left: 25px;
+                        position: relative;
+                    }
+                    .active{
+                        color:  hsla(164, 60%, 52%, 0.959);
+
+                    }
+                    .activ::after{
+                        position: absolute;
+                        content: "";
+                        left: 0;
+                        top: 112%;
+                        width: 100%;
+                        height: 2px;
+                        background-color: hsla(164, 60%, 52%, 0.959);
+                    }
+                }
+                .sign-in{
+                    margin: 0 40px 0 40px;
+
+                }
+                .slider{
+                    display: none;
+                    border: none;
+                    background-color: transparent;
+                    
+                    height: 59px;
+                    width: 63px;
+                    position: absolute;
+                    right: 5px;
+                    top: 6px;
+                    //transition: all ease 0.3s;
+                    img{
+                        width: 100%;
+                        height: 100%;
+                        color: #41ecbede;
+                    }
+                }
+                .slider:hover{
+                    top: 3px;
+                }
+            }
+        }
+
+        .body{
+            margin-top: 100px;
+            .hook{
+                height: 400px;
+                .container{
+                    flex-direction: row;
+                    box-sizing: border-box;
+                    display: flex;
+                }
+                .text{
+                    width: 50%;
+                    h3{
+                        color: #342D54;
+                        font-size: 36px;
+                        width: 80%;
+                        margin-top: 0;
+                        margin-bottom: 30px;
+                    }
+                    p{
+                        color: #6D6D6D;
+                        font-size: 21px;
+                        width: 82%;
+                    }
+                    .learn-more{
+                        button{
+                            background-color: rgba(55, 225, 208, 0.534);
+                            box-shadow: hsla(174, 100%, 74%, 0.767);
+                            width: 160px;
+                            height: 42px;
+                            border-radius: 50px;
+                        }
+                        .round-home-button:hover{
+                            box-shadow: 6px 5px 12px 0px  hsla(174, 100%, 74%, 0.767);
+                            background-color: rgba(55, 225, 208, 0.534);
+                        }
+                    }
+                }
+                .illustration{
+                    width: 50%;
+                    position: relative;
+                    img{
+                        position: absolute;
+                        top: 0;
+                        left: 165px;
+                        width: 500px;
+                    }
+                }
+            }
+
+            .benifits{
+                width: 100%;
+                margin-top: 60;
+                height: 1500px;
+                position: relative;
+                .background-wave{
+                    width: 100%;
+                    
+                    position: relative;
+                    .wave1{
+                        position: absolute;
+                        z-index: 0;
+                        height: 1500px;
+                        width: 100%;
+                        top: 0;
+                        left: 0;
+                        background-size:1730px;
+                        background-image: url("../../assets/MiddleWave1Adjust.svg");
+                        animation: AnimateBackGroundWaveMid 50s linear infinite;
+                        background-repeat: repeat-x;
+                    }
+                    .wave2{
+                        position: absolute;
+                        height: 1500px;
+                        z-index: 0;
+                        width: 100%;
+                        top: 0;
+                        left: 0;
+                        background-size:  1730px;
+                        background-image: url("../../assets/MiddleWave2Adjust.svg");
+                        background-repeat: repeat-x;
+                        animation: AnimateBackGroundWaveMid 30s linear infinite;
+                    }
+                }
+                .content{
+                    margin-top: 365px;
+                    .header{
+                        color: #fff;
+                        
+                        h3{
+                            font-weight: 400;
+                            font-size: 30px;
+                            margin-bottom: 10px;
+                        }
+                        p{
+                            margin-top: 10px;
+                            font-size: 18px;
+                        }
+                    }
+                    .cards{
+                        margin-top: 15px;
+                        display: grid;
+                        grid-template-columns: auto auto;
+                        column-gap: 70px;
+                        margin: 0 9%;
+                        row-gap: 65px;
+                        .block{
+                            background-color: rgba(255, 255, 255, 0.527);
+                            backdrop-filter: blur(5px);
+                            padding: 25px;
+                            
+                            border-radius: 4px;
+                            box-shadow:0px 0px 12px 3px #ebebeb31;
+                            img{ 
+                                width: 90px;
+                                height: 90px;
+                            }
+                            h4{
+                                width: 70%;
+                                color: #383838;
+                                margin: 0;
+                            }
+                            p{
+                                width: 70%;
+                                font-size: 14px;
+                                color: #585858;
+                            }
+                        }
+                    }
+
+                }
+            }
+
+            .different{
+                margin: 90px 0;
+                height: 600px;
+                .container{
+                    flex-direction: row;
+                    box-sizing: border-box;
+                    display: flex;
+                }
+                .text{
+                    width: 50%;
+                    h3{
+                        color: #343647;
+                        font-size: 38px;
+                    }
+                    p{
+                        width: 80%;
+                    }
+                    .get-app{
+                        margin-top: 40px;
+                        button{
+                            background-color: #c32af1a6;
+                            box-shadow: 6px 6px 18px -11px  #ba19e7;
+                        }
+                        button:hover{
+                            background-color: #bc6ad4d0;
+                            box-shadow: 6px 5px 10px 2px  #8f54a08f;
+                        }
+                    }
+                }
+                .illustration{
+                    width: 50%;
+                    display: flex;
+                    flex-direction: row-reverse;
+                    img{
+                        width: 500px;
+                    }
+                }
+            }
+            .web-app-demo{
+                margin-top: 100px;
+                position: relative;
+                height: 1432px;
+                .header{
+                    h3{
+                        color: #272836;
+                        font-size: 37px;
+                        margin-bottom: 0px;
+                    }
+                    p{
+                        color: #8F8F8F;
+                        text-align: center;
+                    }
+                }
+                .illustration{
+                    overflow: hidden;
+                    position: absolute;
+                    img{
+                        width: 135%;
+                        margin-left: -10%;
+                    }
+                }
+            }
+            .integration{
+                height: 400px;
+                h2{
+                    color: #333446;
+                    font-size: 37px;
+                    margin-bottom: 10px;
+                }
+                p{
+                    color: #9092A8;
+                    text-align: center;
+                    line-height: 26.6px;
+                }
+                .document{
+                    margin-top: 20px;
+                    button{
+                        background-color: #f85eab;
+                        box-shadow: 6px 6px 18px -11px  #d34d90;
+                        width: 180px;
+                    }
+                    button:hover{
+                        background-color: #f85eab;
+                        box-shadow: 6px 5px 12px 0px  #d34d90;
+                    }
+                }
+            }
+            .bottom-wave{
+                width: 100%;
+
+                height: 329px;
+                position: relative;
+                .wave1{
+                    position: absolute;
+                    width: 100%;
+                    height:100%;
+                    top: 0;
+                    left: 0;
+                    background-size:1730px;
+                    background-image: url("../../assets/BottomWave1.svg");
+                    animation: AnimateBackGroundWaveMid 50s linear infinite !important;
+                    background-repeat: repeat-x;
+                }
+                .wave2{
+                    position: absolute;
+                    width: 100%;
+                    height:100%;
+                    top: 0;
+                    left: 0;
+                    background-size:1730px;
+                    background-image: url("../../assets/BottomWave2.svg");
+                    animation: AnimateBackGroundWaveMid 30s linear infinite !important;
+                    background-repeat: repeat-x;
+                }
+            }
+        }
+    }
+}
+
+.side-nav{
+    height: 100%;
+    display: none;
+    width: 70%;
+    background-color: rgb(255, 255, 255);
+    border-radius: 20px 0 0 20px;
+    position: fixed;
+    right: -70%;
+    padding: 20px;
+    .icon{
+        text-transform: capitalize;
+        font-weight: 600;
+        font-size: 29px;
+        margin-left: 10px;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        color: #808080;
+        p{
+            margin: 0;
+        }
+    }
+    .close{
+        img{
+            width: 20px;
+        }
+    }
+    ul{
+        border-top: 1px solid #e6e6e6;
+        text-decoration: none;
+        margin: 5px 0 0 0 ;
+        padding: 0 0 0 0;
+        list-style: none;
+        color: #808080;
+        p{
+            margin: 0
+        }
+        li{
+            text-decoration: none;
+            font-size: 17px;
+            margin-left: 5px;
+            position: relative;
+            margin-top: 10px;
+            height: 52px;
+           
+            border-radius: 10px;
+            padding-left: 15px;
+        
+        }
+        .active{
+            color: hsla(164, 63%, 56%, 0.931);
+            background-color:  rgb(231, 231, 231);
+
+        }
+    }
+    button{
+        position: absolute;
+        top: 89%;
+        left: 30%;
+    }
+}
+
+.nav-bg{
+    height: 100%;
+    width: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    background-color: rgba(189, 189, 189, 0.513);
+    opacity: 0;
+    display: none;
+}
+
+@media screen and (max-width: 1300px){
+    .hook{
+        .illustration{
+            display: flex;
+            justify-content: center;
+            img{
+                position: initial !important ;
+            }
+        }
+    }
+    .web-app-demo{
+        
+        height: 1304px !important;
+    }
+}
+
+@media screen and (max-width: 1190px){
+    .container{
+        width: 95%;
+        padding: 0 2.5%;
+    }
+
+    header{
+        .container{
+            padding: 0;
+        }
+    }
+
+    .hook{
+        .illustration{
+            img{
+                width: 390px !important;
+            }
+        }
+    }
+
+    .web-app-demo{
+        
+        height: 1120px !important;
+    }
+}
+
+@media screen and (max-width: 1030px){
+
+    .hook{
+        .text{
+            h3{
+                font-size: 26px !important;
+            }
+            p{
+                font-size: 16px !important;
+                width: 95% !important;
+                color: #a7a7a7;
+            }
+        }
+    }
+
+    .cards{
+        margin: 0 !important;
+        margin-top: 15px !important;
+        .block{
+            p{
+                width: 95% !important;
+            }
+            h4{
+                width: 95% !important;
+            }
+        }
+    }
+
+    .different{
+        .text{
+            h3{
+                font-size: 30px !important;
+            }
+            p{
+                width: 100% !important;
+                font-size: 16px;
+                color: #535353;
+            }
+        }
+        .illustration{
+            img{
+                width: 350px !important;
+            }
+        }
+    }
+}
+
+@media screen and (max-width: 810px){
+    .different{
+        .container{
+            flex-direction: column !important;
+            align-items: center;
+            .text{
+                width: 100% !important;
+                p{
+                    text-align: center;
+                }
+                h3{
+                    text-align: center;
+                }
+            }
+            .get-app{
+                text-align: center;
+            }
+            .illustration{
+                width: 100% !important;
+                justify-content: center;
+                margin: 30px 0 ;
+            }
+        }
+    }
+
+    .web-app-demo{
+        margin-top: 350px !important;
+        height: 787px !important;
+    }
+}
+
+@media screen and (max-width: 780px){
+   .web-app-demo{
+       h3{
+        font-size: 29px !important;
+        }
+   }
+
+   .integration{
+    h2{
+        font-size: 29px !important;
+        text-align: center;
+    }
+   }
+
+   .cards{
+        column-gap: 37px !important;
+        row-gap: 31px !important;
+   }
+
+   .bottom-wave{
+        height: 180px !important;
+        .wave1{
+            background-size: 1000px !important;
+            animation: AnimateBackGroundWaveSmall 50s linear infinite !important;
+
+        }
+        .wave2{
+            background-size: 1000px !important;
+            animation: AnimateBackGroundWaveSmall 35s linear infinite !important;
+
+        }
+        
+   }
+
+   .hook{
+       height: 500px !important;
+       .container{
+            flex-direction: column-reverse !important;
+            .text{
+                width: 80% !important;
+            }
+            .illustration{
+                width: 100% !important;
+                justify-content: flex-end !important;
+            }
+       }
+   }
+
+   .nav-bar{
+        padding: 0px 6px 0 15px !important;
+        li{
+            font-size: 17px !important;
+        }
+        .sign-in{
+            margin: 0 16px !important;
+        }
+   }
+}
+
+@media screen and (max-width: 580px){
+    .nav-bar{
+        ul{
+            display: none !important;
+        }
+    }
+
+    .different{
+        .illustration{
+            img{
+                width: 316px !important;
+            }
+        }
+    }
+    .cards{
+        grid-template-columns: auto !important;
+        padding: 0 30px;
+    }
+
+    .background-wave{
+        .wave1{
+            height: 2624px !important;
+            background-size: 2624px !important;
+            animation: AnimateBackGroundWaveLarge 50s linear infinite !important;
+
+        }
+        .wave2{
+            height: 2624px !important;
+            background-size: 2624px !important;
+            animation: AnimateBackGroundWaveLarge 30s linear infinite !important;
+
+        }
+    }
+
+    .benifits{
+        height: 1799px !important;
+    }
+
+    .slider{
+        display: block !important;
+    }
+    .sign-in{
+        display: none !important;
+    }
+}
+
+
+@media screen and (max-width: 430px){
+    .cards{
+
+        padding: 0 !important;
+    }
+    
+}

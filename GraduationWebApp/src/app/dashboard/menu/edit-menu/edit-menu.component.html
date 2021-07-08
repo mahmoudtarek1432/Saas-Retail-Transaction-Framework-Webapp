@@ -1,0 +1,133 @@
+<div class="content" *ngIf="data.type == 1">
+    <div class="modal" fxLayout="column" fxLayoutAlign="start center">
+        <div class="header">
+            <h3>Add Category</h3>
+        </div>
+        <p id="message" *ngIf="responseMessage != ''" >{{responseMessage}}</p>
+        <form action="" fxLayout="column" [formGroup]="InputForm" >
+            <div class="field" fxLayout="column">
+                <label for="Name">Category Name</label>
+                <input name="Name" formControlName="Name" type="text">
+                <p class="error">{{formErrors.Name}}</p>
+            </div>
+            <mat-slide-toggle (change)="slideToggle($event)">  </mat-slide-toggle>
+            <div *ngIf="InputForm.valid;then valid; else invalid"></div>
+
+            <label class="image" for="logo" fxLayoutAlign="center center"><span>Upload Image</span></label>
+            <input #logo id ="logo" name="logo" type="file" accept="image/*" (change)="ChangeImage(logo)"> 
+
+            <ng-template #valid><button type="submit" (click)=" Submit()" >Submit</button></ng-template>
+            <ng-template #invalid><button class="inactive" type="submit" >Submit</button></ng-template>
+        </form>
+    </div>
+</div>
+
+<div class="content" *ngIf="data.type == 2">
+    <div class="modal" fxLayout="column" fxLayoutAlign="start center">
+        <div class="header">
+            <h3>Add Menu Item</h3>
+        </div>
+        <p id="message" *ngIf="responseMessage != ''" >{{responseMessage}}</p>
+        <form action="" fxLayout="column" [formGroup]="InputForm" >
+            <div class="field" fxLayout="column">
+                <label for="Name">Name</label>
+                <input name="Name" formControlName="Name" type="text">
+                <p class="error">{{formErrors.Name}}</p>
+            </div>
+            <div class="field" fxLayout="column">
+                <label for="Price">Price</label>
+                <input name="Price" formControlName="Price" type="text">
+                <p class="error">{{formErrors.Price}}</p>
+            </div>
+            <div class="field" fxLayout="column">
+                <label for="Code">Code</label>
+                <input name="Code" formControlName="Code" type="text">
+                <p class="error">{{formErrors.Code}}</p>
+            </div>
+            <div class="field" fxLayout="column">
+                <label for="Description">Description</label>
+                <input name="Description" formControlName="Description" type="text">
+                <p class="error">{{formErrors.Description}}</p>
+            </div>
+
+            <mat-slide-toggle [checked]="displayChecked" name="display" (change)="slideToggle($event)">  </mat-slide-toggle>
+
+            <label class="image" for="logo" fxLayoutAlign="center center"><span>Upload Image</span></label>
+            <input  #logo  id ="logo" name="logo" type="file" accept="image/*" (change)="ChangeImage(logo )"> 
+            
+            <div *ngIf="InputForm.valid;then valid; else invalid"></div>
+
+            <ng-template #valid><button type="submit" (click)=" Submit()" >Submit</button></ng-template>
+            <ng-template #invalid><button class="inactive" type="submit" >Submit</button></ng-template>
+        </form>
+    </div>
+</div>
+
+<div class="content" *ngIf="data.type == 3">
+    <div class="modal" fxLayout="column" fxLayoutAlign="start center">
+        <div class="header">
+            <h3>Add Item Option</h3>
+        </div>
+        <p id="message" *ngIf="responseMessage != ''" >{{responseMessage}}</p>
+        <form action="" fxLayout="column" [formGroup]="InputForm" >
+            <div class="field" fxLayout="column">
+                <label for="Name">Name</label>
+                <input name="Name" formControlName="Name" type="text">
+                <p class="error">{{formErrors.Name}}</p>
+            </div>
+            <div class="field" fxLayout="column">
+                <label for="Price">Price</label>
+                <input name="Price" formControlName="Price" type="text">
+                <p class="error">{{formErrors.Price}}</p>
+            </div>
+            <div class="field" fxLayout="column">
+                <label for="Code">Code</label>
+                <input name="Code" formControlName="Code" type="text">
+                <p class="error">{{formErrors.Code}}</p>
+            </div>
+            <mat-slide-toggle [checked]="displayChecked" name="display" (change)="slideToggle($event)">  </mat-slide-toggle>
+
+            <div *ngIf="InputForm.valid;then valid; else invalid"></div>
+
+            <ng-template #valid><button type="submit" (click)=" Submit()" >Submit</button></ng-template>
+            <ng-template #invalid><button class="inactive" type="submit" >Submit</button></ng-template>
+        </form>
+    </div>
+</div>
+
+<div class="content" *ngIf="data.type == 4">
+    <div class="modal" fxLayout="column" fxLayoutAlign="start center">
+        <div class="header">
+            <h3>Add Item Extra</h3>
+        </div>
+        <p id="message" *ngIf="responseMessage != ''" >{{responseMessage}}</p>
+        <form action="" fxLayout="column" [formGroup]="InputForm" >
+            <div class="field" fxLayout="column">
+                <label for="Name">Name</label>
+                <input name="Name" formControlName="Name" type="text">
+                <p class="error">{{formErrors.Name}}</p>
+            </div>
+            <div class="field" fxLayout="column">
+                <label for="Price">Price</label>
+                <input name="Price" formControlName="Price" type="text">
+                <p class="error">{{formErrors.Price}}</p>
+            </div>
+            <div class="field" fxLayout="column">
+                <label for="Code">Code</label>
+                <input name="Code" formControlName="Code" type="text">
+                <p class="error">{{formErrors.Code}}</p>
+            </div>
+            
+            <label class="image" for="logo" fxLayoutAlign="center center"><span>Upload Image</span></label>
+            <input #logo id ="logo" name="logo" type="file" accept="image/*" (change)="ChangeImage(logo)"> 
+            <mat-slide-toggle [checked]="displayChecked" name="display" (change)="slideToggle($event)">  </mat-slide-toggle>
+
+            <div *ngIf="InputForm.valid;then valid; else invalid"></div>
+
+            <ng-template #valid><button type="submit" (click)=" Submit()" >Submit</button></ng-template>
+            <ng-template #invalid><button class="inactive" type="submit" >Submit</button></ng-template>
+        </form>
+    </div>
+</div>
+
+{{formErrors | json}}

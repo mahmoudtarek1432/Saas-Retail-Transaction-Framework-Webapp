@@ -1,0 +1,175 @@
+.dashboard {
+  width: 100%;
+  height: 100%;
+  color: #fff;
+}
+
+.dashboard h3 {
+  color: #575757;
+  text-transform: uppercase;
+  font-size: 24px;
+}
+
+.dashboard .block {
+  height: 90%;
+  background-color: #342a5d2a;
+  border-radius: 5px;
+  width: 96%;
+  padding: 2%;
+  overflow-y: scroll;
+}
+
+.dashboard .block .add-pos h3 {
+  margin: 6px;
+  color: #3f3f3f;
+  text-transform: uppercase;
+  font-size: 20px;
+}
+
+.dashboard .block .add {
+  height: 30px;
+  border: none;
+  width: 40px;
+  border-radius: 4px;
+  -webkit-box-shadow: 1px 1px 1px #a4a4a4;
+          box-shadow: 1px 1px 1px #a4a4a4;
+  margin-bottom: 6px;
+  color: #fff;
+  cursor: pointer;
+  background-color: #2efd51;
+  color: #fff;
+}
+
+.dashboard .block .pos {
+  -webkit-box-shadow: 1px 1px 1px #a4a4a4;
+          box-shadow: 1px 1px 1px #a4a4a4;
+  padding: 15px;
+  border-radius: 5px;
+  background-color: #4d4d4d31;
+  margin: 8px 0px;
+}
+
+.dashboard .block .pos p {
+  margin: 3px;
+}
+
+.dashboard .block .pos .state .state-color {
+  width: 12px;
+  height: 12px;
+  border-radius: 20px;
+  background-color: #fff;
+  margin-right: 5px;
+}
+
+.dashboard .block .pos .state .yellow {
+  background-color: #fffc2f;
+}
+
+.dashboard .block .pos .state .green {
+  background-color: #2fff2f;
+}
+
+.dashboard .block .pos .state .red {
+  background-color: #ff2f2f;
+}
+
+.dashboard .block .pos .pos-controls .edit {
+  height: 46px;
+  border: none;
+  width: 38px;
+  background-color: #fff;
+  border-radius: 4px;
+  -webkit-box-shadow: 1px 1px 1px #a4a4a4;
+          box-shadow: 1px 1px 1px #a4a4a4;
+  color: #5c5c5c;
+}
+
+.dashboard .block .pos .pos-controls .delete {
+  height: 46px;
+  border: none;
+  width: 38px;
+  background-color: #ff4242;
+  border-radius: 4px;
+  -webkit-box-shadow: 1px 1px 1px #a4a4a4;
+          box-shadow: 1px 1px 1px #a4a4a4;
+  margin-bottom: 3px;
+  color: #fff;
+}
+
+.dashboard .block .pos .terminals .mat-expansion-panel {
+  background-color: rgba(255, 255, 255, 0.63);
+}
+
+.dashboard .block .pos .terminals .add {
+  height: 30px;
+  border: none;
+  width: 40px;
+  border-radius: 4px;
+  -webkit-box-shadow: 1px 1px 1px #a4a4a4;
+          box-shadow: 1px 1px 1px #a4a4a4;
+  margin-bottom: 6px;
+  color: #fff;
+}
+
+.dashboard .block .pos .terminals .header {
+  margin: 5px 0;
+}
+
+.dashboard .block .pos .terminals h3 {
+  color: #808080;
+}
+
+.dashboard .block .pos .terminals .categories {
+  overflow-y: scroll;
+  max-height: 630px;
+  padding: 10px;
+}
+
+.terminals-container {
+  width: 100%;
+}
+
+.terminals-container .ter-body {
+  margin: 5px 5px;
+  padding: 10px;
+  background-color: #fff;
+  width: 272px;
+  border-radius: 4px;
+  float: left;
+}
+
+.terminals-container .ter-body:hover .ter-controls {
+  display: block;
+  opacity: 1;
+}
+
+.terminals-container .ter-controls {
+  display: block;
+  opacity: 0;
+  -webkit-transition: all ease 0.3s;
+  transition: all ease 0.3s;
+}
+
+.terminals-container .ter-controls .edit {
+  height: 46px;
+  border: none;
+  width: 38px;
+  background-color: #fff;
+  border-radius: 4px;
+  -webkit-box-shadow: 1px 1px 1px #a4a4a4;
+          box-shadow: 1px 1px 1px #a4a4a4;
+  color: #5c5c5c;
+}
+
+.terminals-container .ter-controls .delete {
+  height: 46px;
+  border: none;
+  width: 38px;
+  background-color: #ff4242;
+  border-radius: 4px;
+  -webkit-box-shadow: 1px 1px 1px #a4a4a4;
+          box-shadow: 1px 1px 1px #a4a4a4;
+  margin-bottom: 3px;
+  color: #fff;
+}
+/*# sourceMappingURL=dashboard-main.component.css.map */

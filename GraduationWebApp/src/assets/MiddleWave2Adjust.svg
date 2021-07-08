@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="1153" height="984.664" viewBox="0 0 1153 984.664">
+  <defs>
+    <linearGradient id="linear-gradient" x1="0.528" y1="-0.124" x2="0.524" y2="0.953" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#122120" stop-opacity="0"/>
+      <stop offset="0.167" stop-color="#55c4f4" stop-opacity="0"/>
+      <stop offset="0.273" stop-color="#40dcf6"/>
+      <stop offset="0.811" stop-color="#c57cf5" stop-opacity="0.878"/>
+      <stop offset="1" stop-color="#ff00e6" stop-opacity="0"/>
+    </linearGradient>
+  </defs>
+  <path id="MiddleWave2" d="M1350.88,1632.44v-934s75.081-8.662,111.728,19.1,84.943,149.785,330.835,100.831c77.456-15.421,118.129-5.845,167.781,40.917q2.83,2.667,5.908,5.1c51.693,40.951,140.388,79.848,305.289,43.3C2443.834,869.7,2503.88,698.44,2503.88,698.44v934s-46.919,81.489-137.921,35.114-62.213-127.322-127.412-129.448-197.281,54.689-259.94,41.4-147.981-110.783-227.646-129.326c-40.23-9.364-137.985-5.934-227.36,42.709C1436.344,1540.384,1350.88,1632.44,1350.88,1632.44Z" transform="translate(-1350.88 -697.161)" opacity="0.33" fill="url(#linear-gradient)"/>
+</svg>

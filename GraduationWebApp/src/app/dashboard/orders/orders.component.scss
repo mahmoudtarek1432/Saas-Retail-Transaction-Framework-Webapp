@@ -1,0 +1,177 @@
+.orders{
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+}
+.header{
+    background-color: hsla(0, 0%, 83%, 0.281);
+    height: 55px;
+    border-radius: 5px;
+    padding: 20px 30px;
+    color: #666666;
+    border-radius: 10px;
+    .details{
+        width: 55%;                
+    }
+    .date{
+        width: 17.5%;
+        text-align: center;
+    }
+    .status{
+        width: 17.5%;
+        text-align: center;
+    }
+    .view{
+        width: 10%;
+        
+    }
+}
+.order-body{
+    //width: 1268.45px;
+    height: 100%;
+    
+    h3{
+        color: #575757;
+        text-transform: uppercase;
+        font-size: 24px;
+    }
+    .order-table{
+        overflow-y: scroll;
+        width: 100%;
+        height: 100%;
+
+
+        .order-row{
+            background-color: #5D5D5D;
+            margin: 5px 0;
+            padding: 8px 30px;
+            border-radius: 10px;
+            height: 100px;
+            transition: 0.3s all ease;
+            overflow: hidden;
+            .flex{
+                height: 100%;
+            }
+            .mini{
+                width: 100%;
+            }
+            .filler{
+                height: 80px;
+                width: 100px;
+                background-color: #fff;
+                display: none;
+            }
+            .details{
+                width: 55%;
+                
+                padding-bottom: 15px;
+                height: 80px;
+                .device-id{
+                    color: #878787;
+                    margin: 3px 0
+                }
+                .table{
+                    color: #B2B1B1;
+                    font-size: 14px;
+                    margin: 3px 0
+                }
+                .order-id{
+                    color: #B2B1B1;
+                    font-size: 12px;
+                    margin: 3px 0
+                }
+            }
+            .date{
+                width: 17.5%;
+                text-align: center;
+                color: #B2B1B1;
+                height: 80px;
+            }
+            .status{
+                width: 17.5%;
+                text-align: center;
+                height: 80px;
+                p{
+                    margin: 5px;
+                }
+                button{
+                    height: 30px;
+                    width: 80px;
+                    border: none;
+                    background-color: #fff;
+                    border-radius: 10px;
+                    font-weight: 600;
+                    
+                    cursor: pointer;
+                }
+                .green{
+                    color: #44DB4F;
+                }
+                .red{
+                    color: #E33B3B;
+                }
+            }
+            .view{
+                width: 10%;
+                color: #878787;
+                cursor: pointer;
+                height: 80px;
+            }
+
+            .full{
+                width: 100%;
+                .order-info{
+                    width: 100%;
+                    p{
+                        color: #dadada;
+                        font-size: 14px;
+                        margin: 3px 0;
+                        text-transform: capitalize;
+                    }
+                    .additional-info{
+                        background-color: #fff;
+                        max-height: 100px;
+                        width: 30%;
+                        border-radius: 5px;
+                        padding: 6px 10px;
+                        color: #535353;
+                        p{
+                            color: #535353;
+                        }
+                        .darker{
+                            color: #2c2c2c;
+                        }
+                    }
+                }
+                .order-items-grid{
+                    margin-top: 10px;
+                    display: grid;
+                    width: 100%;
+                    grid-template-columns: auto auto auto auto;
+                    column-gap: 15px;
+                    row-gap: 15px;
+                    .item-container{
+                        
+                        .item{
+                            
+                            background-color: #fff;
+                            padding: 10px;
+                            border-radius: 5px;
+                            p{
+                                color: #5a5a5a;
+                                font-size: 14px;
+                                margin: 3px 0;
+                                text-transform: capitalize;
+                            }
+                            .partition{
+                                height: 1px;
+                                width: 100%;
+                                background-color: #676767;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

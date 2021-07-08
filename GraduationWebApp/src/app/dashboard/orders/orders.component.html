@@ -1,0 +1,89 @@
+<div class="orders">
+    <div class="order-body">
+        <h3>Devices</h3>
+        <div class="header" fxLayoutAlign="center center">
+            <p class="details">Order Details</p>
+            <p class="date">Time Placed</p>
+            <p class="status">Status</p>
+            <p class="view"></p>
+        </div>
+        <div class="order-table" fxLayout="column">
+            <p></p>
+            <div>
+                <div class="order-row" fxLayout="column" fxLayoutAlign="start start" toggled='false' *ngFor="let order of orders">
+                    <div class="mini"fxLayoutAlign="start start">
+                        <td class="details">
+                            <div class="flex" fxLayout="column" fxLayoutAlign='center start'>
+                                <div class="device-id">Terminal Id - {{order.terminalSerial}}</div>
+                                <div class="table">Table# {{order.table}}</div>
+                                <div class="order-id">Order Id - {{order.id}}</div>
+                                <div class="filler"></div>
+                            </div>
+                            
+                        </td>
+                        <td class="date">
+                            <div class="flex" fxLayout="column" fxLayoutAlign='center'>
+                                <div class="placment-date">{{order.date | date :"longDate"}}</div>
+                                <div class="time">{{order.date | date :"shortTime"}}</div>
+                            </div>
+                        </td>
+                        <td class="status" >
+                        
+                            <div class="flex" fxLayout="column" fxLayoutAlign='center center'>
+                                <div *ngIf="order.orderStatus[order.orderStatus.length-1].state == 1"> <!--pendding-->
+                                    <button class="green" (click)="updateState(order.id,2)">Finish</button>
+                                    <p></p>
+                                    <button class="red" (click)="updateState(order.id,3)">Cancel</button>
+                                </div>
+                                <div *ngIf="order.orderStatus[order.orderStatus.length-1].state == 2"> <!--complete-->
+                                    <button class="green">Complete</button>
+                                    
+                                </div>
+                                <div *ngIf="order.orderStatus[order.orderStatus.length-1].state == 3"> <!--canceled-->
+                                    <button class="red">Cancelled</button>
+                                </div>
+                            </div>
+                        </td>
+                        <td  class="view">
+                            <div class="flex" fxLayout="column" fxLayoutAlign='center center' (click)="toggelItem($event)">
+                                <p>View Order</p>
+                            </div>
+                        </td>
+                    </div>
+                    <div class="full"fxLayout="column">
+                        <div class="order-info" fxLayout>
+                            <div>
+                                <p>price: {{order.price | currency}}</p>
+                                <p>POS Serial: {{order.posSerial}}</p>
+                                <p>OrderCode: {{order.orderCode}}</p>
+                            </div>
+                            <div class="splitter"></div>
+                            <div class="additional-info">
+                                <p class="">additional-info</p>
+                                <p>{{order.additionalInfo}}
+                                </p>
+                            </div>
+                        </div>
+                        <!--need rework-->
+                        <div class="order-items-grid">
+                            <div class="item-container" *ngFor="let item of order.orderItem">
+                                <div class="item">
+                                    <p class="item-code">Item Code: {{item.itemCode}}</p>
+                                    <p class="item-name">Item Name: {{item.name}}</p>
+                                    <p class="item-price">Item Price: {{item.price}}</p>
+                                    <p class="item-quantity">Item Quantity: {{item.quantity}}</p>
+                                    <span class="partition"></span>
+                                    <div *ngIf="item.orderExtras[0] != undefined">
+                                        <p class="item-extra-name">Extra Name: {{item.orderExtras[0].name}}</p>
+                                        <p class="item-extra-code">Extra Code: {{item.orderExtras[0].code}}</p>
+                                        <p class="item-extra-price">Extra Price: {{item.orderExtras[0].price}}</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

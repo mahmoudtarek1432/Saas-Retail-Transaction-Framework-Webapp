@@ -1,0 +1,20 @@
+<div class="content">
+    <div class="modal" fxLayout="column" fxLayoutAlign="start center">
+        <div class="header">
+            <h3>Add A New POS</h3>
+        </div>
+        <p id="message" *ngIf="responseMessage != ''" >{{responseMessage}}</p>
+        <form action="" fxLayout="column" [formGroup]="PosForm" >
+            <div class="field" fxLayout="column">
+                <label for="Name">POS Name</label>
+                <input name="Name" formControlName="Name" type="text">
+                <p class="error">{{formErrors.Name}}</p>
+            </div>
+            
+            <div *ngIf="PosForm.valid;then valid; else invalid"></div>
+
+            <ng-template #valid><button type="submit" (click)="onSubmit()" >Submit</button></ng-template>
+            <ng-template #invalid><button class="inactive" type="submit" >Submit</button></ng-template>
+        </form>
+    </div>
+</div>

@@ -1,0 +1,53 @@
+/* You can add global styles to this file, and also import other style files */
+@import '@angular/material/prebuilt-themes/deeppurple-amber.css';
+body{
+    margin: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    overflow-x: hidden;
+   // min-width: 1700px;
+}
+
+.container{
+    margin: auto;
+    width: 1180px;
+}
+
+.splitter{
+    display: flex;
+    flex: 1 0;
+}
+
+.round-home-button{
+    width: 130px;
+    height: 36px;
+    background-color: hsla(164, 82%, 59%, 0.87);
+    font-size: 16px;
+    text-transform: capitalize;
+    border-radius: 20px;
+    letter-spacing: 1px;
+    font-weight: 400;
+    color: #fff;
+    border-radius: 20px;
+    box-shadow: 6px 6px 20px -6px  rgba(38, 238, 138, 0.376);
+    border: 0;
+    transition: ease all 0.3s;
+}
+.round-home-button:hover{
+    box-shadow: 6px 5px 12px 0px  rgba(38, 238, 138, 0.376);
+    background-color: hlsa(164, 82%, 59%, 0.883);
+}
+html, body { height: 100%; }
+
+
+::-webkit-scrollbar {
+    width: 8px;
+}
+
+::-webkit-scrollbar-thumb {
+    background: #98989891;
+    border-radius: 4px;
+}
+::-webkit-scrollbar-track {
+    box-shadow: inset 0 0 5px #80808052;
+    border-radius: 10px;
+}

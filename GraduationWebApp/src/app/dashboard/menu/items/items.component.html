@@ -1,0 +1,35 @@
+<div class="item" fxLayout="column">
+    <div  fxLayout="row">
+        <div>
+            <div fxLayout="row">
+                <div class="image">
+                    <div *ngIf="Item.image == '';then transparent; else opaque"></div>
+                    <ng-template #opaque> <img style="width: 100%; height:100%;" src="{{globals.baseUrlImage}}/images/{{Item.image}}" alt=""></ng-template> 
+                    <ng-template #transparent><img style="width: 100%; height:100%; opacity: 0;" src="" alt=""></ng-template> 
+                </div>
+                <div class="block">
+                    <p  style="margin: 0;">Item ID: {{Item.id}}</p>
+                    <p  style="margin: 0;">Code: {{Item.code}}</p>
+                    <p  style="margin: 0;">Name: {{Item.name}}</p>
+                    <p style="margin: 0;">Price: {{Item.price | currency}}</p>
+                </div>
+            </div>
+            <div class="bottom">
+                <p>{{Item.description}}</p>
+            </div>
+        </div>
+        <span class="splitter"></span>
+        <div style="height: 100%;" fxLayout=Column>
+            <button class='delete' color="warn" (click) ="deleteElement(Item.id,2)" >
+                <mat-icon>close</mat-icon>
+            </button>
+            <button class="edit" color="green" (click) = "EditElement()">
+                <mat-icon>edit</mat-icon>
+            </button>
+        </div>
+    </div>
+    <p></p>
+    <app-option [ItemOptions] = "Item.itemOptions" [ItemId] = "Item.id" [MenuDelegate] = "MenuDelegate"></app-option>
+    <app-extra [ItemExtras] = "Item.itemExtras" [ItemId] = "Item.id" [MenuDelegate] = "MenuDelegate"></app-extra>
+</div>
+

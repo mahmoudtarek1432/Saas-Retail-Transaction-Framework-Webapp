@@ -1,0 +1,159 @@
+<div class="home">
+
+    <div class="background">
+        <!--<img src="../../assets/background.svg" alt="">-->
+        <div class="image"></div>
+        <div class="filter"></div>
+    </div>
+    <div class="content">
+        <header>
+            <div class="container">
+                <div class="nav-bar" fxLayoutAlign="start center">
+                    <div class="icon">
+                        <p id="placeholder">Icon</p>
+                    </div>
+                    <div class="splitter"></div>
+                    <ul fxLayout="row">
+                    </ul>
+                    <div class="sign-in" fxLayoutAlign="center center">
+                        <button class="round-home-button" (click)="navigate('/Login')">sign in</button>
+                    </div>
+                    <button id="slider" class="slider" #slider (click)="SlideOpen(slider)"><img src="../../assets/play.svg" alt=""></button>
+                </div>
+            </div>
+        </header>
+
+        <!--body-->
+        <div class="body" >
+            <div class="hook" >
+                <div class="container">
+                    <div class="text">
+                        <h3>Take Your Retail Buisness
+                            To The Next Level</h3>
+                        <p>Lorem Ipsum is simply dummy text of the printing
+                            and typesetting industry. Lorem Ipsum has been
+                            the industry's standard </p>
+                        <div class="learn-more">
+                            <button class="round-home-button">Learn More</button>
+                        </div>
+                    </div>
+                    <div class="illustration">
+                        <img src="../../assets/Illustration1.svg" alt="">
+                    </div>
+                </div>
+            </div>
+            <div class="benifits">
+                <div class="background-wave">
+                    <div  class="wave1"></div>
+                    <div class="wave2"></div>
+                </div>
+                <div class="content">
+                    <div class="container" fxLayout="column" fxLayoutAlign="start center">
+                        <div class="header" fxLayout="column" fxLayoutAlign="start center">
+                            <h3>Benfits from using our Service?</h3>
+                            <p>Lorem Ipsum is simply dummy text of the printing and typesetting  industry. Lorem </p>
+                        </div>
+                        <div class="cards">
+                            <div class="block">
+                                <img src="../../assets/Recipt.svg" alt="">
+                                <h4>Get Customer orders instantously</h4>
+                                <p>Using the application, the customers will
+                                    make their orders without the need for 
+                                    waiters or cashier
+                                    </p>
+                            </div>
+                            <div class="block">
+                                <img src="../../assets/Hourglass.svg" alt="" >
+                                <h4>Get real time updates on your POS</h4>
+                                <p>Lorem Ipsum is simply dummy text of the 
+                                    printing and typesetting  industry. 
+                                    Lorem </p>
+                            </div>
+                            <div class="block">
+                                <img src="../../assets/Network.svg" alt="">
+                                <h4>Change Themes Dynamicaly</h4>
+                                <p>Using the application, the customers will
+                                    make their orders without the need for 
+                                    waiters or cashier
+                                    </p>
+                            </div>
+                            <div class="block">
+                                <img src="../../assets/Money.svg" alt="">
+                                <h4>Reduce Cost and increase profit</h4>
+                                <p>Using the application, the customers will
+                                    make their orders without the need for 
+                                    waiters or cashier
+                                    </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="different">
+                <div class="container" >
+                    <div class="text">
+                        <h3>What makes us different?</h3>
+                        <p>Lorem Ipsum is simply dummy text of the printing
+                            and typesetting industry. ever since the 1500s has
+                            printing and typesetting industry. Lorem Ipsum been
+                            the industry's standard dummy text ever since 
+                            when an unknown.
+                        </p>
+                        <div class="get-app">
+                            <button class="round-home-button">Get App</button>
+                        </div>
+                    </div>
+                    <div class="illustration">
+                        <img src="../../assets/Application.svg" alt="">
+                    </div>
+                </div>
+            </div>
+            <div class="web-app-demo">
+                <div class="container">
+                    <div class="header" fxLayout="column" fxLayoutAlign="center center">
+                        <h3>Finally, It's Easy to use</h3>
+                        <p>Although you can set up your pos to use the service, you can monitor your Orders, Terminals and log 
+                            trough the website. *</p>
+                    </div>
+                </div>
+                <div class="illustration">
+                    <img src="../../assets/Webapp.svg" alt="">
+                </div>
+            </div>
+            
+            <div class="integration">
+                <div class="container"  fxLayout="column" fxLayoutAlign="start center">
+                    <h2>Integrate Our Apis in your Pos System</h2>
+                    <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's 
+                        standard dummy text ever since the 1500s, when an unknown printer took a 
+                        galley of type and scrambled it to make a type specimen book</p>
+                    <div class="document">
+                        <button class="round-home-button">Documentation</button>
+                    </div>
+                </div>
+            </div>
+            <div class="bottom-wave">
+                <div class="wave1"></div>
+                <div class="wave2"></div>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="nav-bg" id="nav-bg" (click)="SlideClose()"></div>
+<div class="side-nav" id="side-nav">
+    <div class="top" fxLayout fxLayoutAlign ="start center">
+        <div class="icon">
+            <p id="placeholder">Icon</p>
+        </div>
+        <div class="splitter"></div>
+        <div class="close" (close)="SlideClose()">
+            <img src="../../assets/close (1).svg" (click)="SlideClose()" alt="">
+        </div>
+    </div>
+    <ul>
+        <li routerLinkActive="active" routerLink = "/Home" fxLayoutAlign= "start center"><p>home</p></li>
+        <li routerLinkActive="active" routerLink = "/documentation" fxLayoutAlign= "start center"><p>documentation</p></li>
+        <li routerLinkActive="active" routerLink = "/contactUs" fxLayoutAlign= "start center"><p>contact us</p></li>
+    </ul>
+    <button class="round-home-button" (click)="navigate('/Login')"> sign in</button>
+</div>

@@ -1,0 +1,97 @@
+.content{
+    width: 90%;
+    height: 87%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    .side-navigation{
+        width: 20%;
+        height: 100%;
+        background-color: rgba(187, 187, 187, 0.561);
+        position: absolute;
+        border-radius: 24px;
+        backdrop-filter: blur(15px);
+            .padding{
+                height: 100%;
+            }
+            h3{
+                text-transform: capitalize;
+                font-size: 22px;
+                color: #646464;
+                font-weight: 400;
+                margin-top: 28px;
+                margin-left: 35px;
+            }
+            .menu{
+                color: #909090;
+                font-size: 13px;
+                text-transform: capitalize;
+                margin-left: 35px;
+            }
+            ul{
+                list-style: none;
+                margin-top: 45px;
+                padding: 0;
+            }
+            li{
+                color: #646464;
+                font-size: 17px;
+                padding: 12px 31%;
+                cursor: pointer;
+            }
+            li:hover{
+                background-color: rgba(255, 255, 255, 0.226);
+            }
+            .active{
+                background-color: rgba(255, 255, 255, 0.472);
+                
+                
+            }
+            .logout{
+                margin-left: 15%;
+                margin-bottom: 22px;
+            
+                button{
+                    width: 68%;
+                    height: 44px;
+                    background-color: #eb3434;
+                    font-size: 16px;
+                    color: #fff;
+                    text-transform: uppercase;
+                    border: none;
+                    border-radius: 8px;
+                }
+            }
+    }
+    .body{
+        width: 82%;
+        height: 100%;
+        top: 0;
+        left: 18%;
+        background-color: (0, 0%, 96%, 0.555);;
+        position: absolute;
+        border-radius: 24px;
+        backdrop-filter: blur(30px);
+        .content-a{
+            margin: 3% 4% 3% 4%;
+            height: 80%;
+            .top{
+                width: 100%;
+                margin-bottom: 25px;
+                h3{
+                    color: #8E8E8E;
+                    font-size: 26px;
+                    font-weight: 400;
+                    margin: 0;
+                    text-transform: capitalize;
+                }
+                img{
+                    border-radius: 5px;
+                    width: 75px;
+                    height: 75px;
+                }
+            }
+        }
+    }
+}

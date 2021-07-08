@@ -1,0 +1,392 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="317.333" height="193.441" viewBox="0 0 317.333 193.441">
+  <defs>
+    <clipPath id="clip-path">
+      <rect width="231.195" height="143.231" fill="none"/>
+    </clipPath>
+    <clipPath id="clip-path-2">
+      <rect width="34.516" height="33.239" fill="none"/>
+    </clipPath>
+  </defs>
+  <g id="Group_199" data-name="Group 199" transform="translate(-860.225 -4137.226)">
+    <g id="Group_212" data-name="Group 212" transform="translate(860.225 4137.226)">
+      <g id="Group_211" data-name="Group 211" transform="translate(0 0)">
+        <g id="Group_209" data-name="Group 209">
+          <g id="Group_197" data-name="Group 197">
+            <g id="Group_186" data-name="Group 186">
+              <g id="Group_193" data-name="Group 193">
+                <path id="Rectangle_44" data-name="Rectangle 44" d="M15,0H302.333a15,15,0,0,1,15,15v6.613a0,0,0,0,1,0,0H0a0,0,0,0,1,0,0V15A15,15,0,0,1,15,0Z" fill="#5b5b5b"/>
+                <rect id="Rectangle_45" data-name="Rectangle 45" width="91.137" height="7.565" rx="3.782" transform="translate(212.508 7.204)" fill="#3a3a3a"/>
+                <path id="Path_488" data-name="Path 488" d="M3.782,0A3.782,3.782,0,1,1,0,3.782,3.782,3.782,0,0,1,3.782,0Z" transform="translate(7.565 7.204)" fill="#ff7d7d"/>
+                <circle id="Ellipse_20" data-name="Ellipse 20" cx="3.782" cy="3.782" r="3.782" transform="translate(22.334 7.204)" fill="#fefa9c"/>
+                <circle id="Ellipse_21" data-name="Ellipse 21" cx="3.782" cy="3.782" r="3.782" transform="translate(38.443 7.204)" fill="#a4f595"/>
+              </g>
+            </g>
+            <g id="Group_187" data-name="Group 187" transform="translate(0 21.613)">
+              <path id="Rectangle_43" data-name="Rectangle 43" d="M0,0H79.694a0,0,0,0,1,0,0V156.827a15,15,0,0,1-15,15H15a15,15,0,0,1-15-15V0A0,0,0,0,1,0,0Z" fill="#606060"/>
+            </g>
+          </g>
+          <g id="Group_198" data-name="Group 198" transform="translate(6.124 21.613)">
+            <rect id="Rectangle_55" data-name="Rectangle 55" width="38.904" height="4.683" rx="2.341" transform="translate(0 16.57)" fill="#6d6d6d"/>
+            <rect id="Rectangle_56" data-name="Rectangle 56" width="29.538" height="4.683" rx="2.341" transform="translate(0 25.936)" fill="#6d6d6d"/>
+            <rect id="Rectangle_57" data-name="Rectangle 57" width="29.538" height="4.683" rx="2.341" transform="translate(0 35.302)" fill="#6d6d6d"/>
+            <rect id="Rectangle_58" data-name="Rectangle 58" width="16.931" height="4.683" rx="2.341" transform="translate(0 44.668)" fill="#6d6d6d"/>
+            <rect id="Rectangle_59" data-name="Rectangle 59" width="34.942" height="4.683" rx="2.341" transform="translate(0 54.034)" fill="#6d6d6d"/>
+            <g id="Group_196" data-name="Group 196" transform="translate(43.947)">
+              <g id="Group_195" data-name="Group 195">
+                <g id="Group_210" data-name="Group 210">
+                  <path id="Rectangle_54" data-name="Rectangle 54" d="M20,0H267.19a0,0,0,0,1,0,0V151.827a20,20,0,0,1-20,20H20a20,20,0,0,1-20-20V20A20,20,0,0,1,20,0Z" fill="#f8f8f8"/>
+                  <g id="Repeat_Grid_4" data-name="Repeat Grid 4" transform="translate(17.976 14.488)" clip-path="url(#clip-path)">
+                    <g id="Group_194" data-name="Group 194">
+                      <g id="Repeat_Grid_3" data-name="Repeat Grid 3" transform="translate(0 2.114)" clip-path="url(#clip-path-2)">
+                        <g transform="translate(-376 -4018)">
+                          <rect id="Rectangle_60" data-name="Rectangle 60" width="74" height="74" rx="5" transform="translate(376 4018)" fill="#efefef"/>
+                          <rect id="Rectangle_61" data-name="Rectangle 61" width="74" height="74" rx="5" transform="translate(475 4018)" fill="#efefef"/>
+                          <rect id="Rectangle_62" data-name="Rectangle 62" width="74" height="74" rx="5" transform="translate(574 4018)" fill="#efefef"/>
+                          <rect id="Rectangle_63" data-name="Rectangle 63" width="74" height="74" rx="5" transform="translate(376 4118)" fill="#efefef"/>
+                          <rect id="Rectangle_64" data-name="Rectangle 64" width="74" height="74" rx="5" transform="translate(475 4118)" fill="#efefef"/>
+                          <rect id="Rectangle_65" data-name="Rectangle 65" width="74" height="74" rx="5" transform="translate(574 4118)" fill="#efefef"/>
+                        </g>
+                      </g>
+                      <g id="Repeat_Grid_2" data-name="Repeat Grid 2" clip-path="url(#clip-path-2)">
+                        <g transform="translate(-376 -4018)">
+                          <rect id="Rectangle_60-2" data-name="Rectangle 60" width="74" height="74" rx="5" transform="translate(376 4018)" fill="#fff"/>
+                          <rect id="Rectangle_61-2" data-name="Rectangle 61" width="74" height="74" rx="5" transform="translate(475 4018)" fill="#fff"/>
+                          <rect id="Rectangle_62-2" data-name="Rectangle 62" width="74" height="74" rx="5" transform="translate(574 4018)" fill="#fff"/>
+                          <rect id="Rectangle_63-2" data-name="Rectangle 63" width="74" height="74" rx="5" transform="translate(376 4118)" fill="#fff"/>
+                          <rect id="Rectangle_64-2" data-name="Rectangle 64" width="74" height="74" rx="5" transform="translate(475 4118)" fill="#fff"/>
+                          <rect id="Rectangle_65-2" data-name="Rectangle 65" width="74" height="74" rx="5" transform="translate(574 4118)" fill="#fff"/>
+                        </g>
+                      </g>
+                    </g>
+                    <g id="Group_194-2" data-name="Group 194" transform="translate(55)">
+                      <g id="Repeat_Grid_3-2" data-name="Repeat Grid 3" transform="translate(0 2.114)" clip-path="url(#clip-path-2)">
+                        <g transform="translate(-376 -4018)">
+                          <rect id="Rectangle_60-3" data-name="Rectangle 60" width="74" height="74" rx="5" transform="translate(376 4018)" fill="#efefef"/>
+                          <rect id="Rectangle_61-3" data-name="Rectangle 61" width="74" height="74" rx="5" transform="translate(475 4018)" fill="#efefef"/>
+                          <rect id="Rectangle_62-3" data-name="Rectangle 62" width="74" height="74" rx="5" transform="translate(574 4018)" fill="#efefef"/>
+                          <rect id="Rectangle_63-3" data-name="Rectangle 63" width="74" height="74" rx="5" transform="translate(376 4118)" fill="#efefef"/>
+                          <rect id="Rectangle_64-3" data-name="Rectangle 64" width="74" height="74" rx="5" transform="translate(475 4118)" fill="#efefef"/>
+                          <rect id="Rectangle_65-3" data-name="Rectangle 65" width="74" height="74" rx="5" transform="translate(574 4118)" fill="#efefef"/>
+                        </g>
+                      </g>
+                      <g id="Repeat_Grid_2-2" data-name="Repeat Grid 2" clip-path="url(#clip-path-2)">
+                        <g transform="translate(-376 -4018)">
+                          <rect id="Rectangle_60-4" data-name="Rectangle 60" width="74" height="74" rx="5" transform="translate(376 4018)" fill="#fff"/>
+                          <rect id="Rectangle_61-4" data-name="Rectangle 61" width="74" height="74" rx="5" transform="translate(475 4018)" fill="#fff"/>
+                          <rect id="Rectangle_62-4" data-name="Rectangle 62" width="74" height="74" rx="5" transform="translate(574 4018)" fill="#fff"/>
+                          <rect id="Rectangle_63-4" data-name="Rectangle 63" width="74" height="74" rx="5" transform="translate(376 4118)" fill="#fff"/>
+                          <rect id="Rectangle_64-4" data-name="Rectangle 64" width="74" height="74" rx="5" transform="translate(475 4118)" fill="#fff"/>
+                          <rect id="Rectangle_65-4" data-name="Rectangle 65" width="74" height="74" rx="5" transform="translate(574 4118)" fill="#fff"/>
+                        </g>
+                      </g>
+                    </g>
+                    <g id="Group_194-3" data-name="Group 194" transform="translate(110)">
+                      <g id="Repeat_Grid_3-3" data-name="Repeat Grid 3" transform="translate(0 2.114)" clip-path="url(#clip-path-2)">
+                        <g transform="translate(-376 -4018)">
+                          <rect id="Rectangle_60-5" data-name="Rectangle 60" width="74" height="74" rx="5" transform="translate(376 4018)" fill="#efefef"/>
+                          <rect id="Rectangle_61-5" data-name="Rectangle 61" width="74" height="74" rx="5" transform="translate(475 4018)" fill="#efefef"/>
+                          <rect id="Rectangle_62-5" data-name="Rectangle 62" width="74" height="74" rx="5" transform="translate(574 4018)" fill="#efefef"/>
+                          <rect id="Rectangle_63-5" data-name="Rectangle 63" width="74" height="74" rx="5" transform="translate(376 4118)" fill="#efefef"/>
+                          <rect id="Rectangle_64-5" data-name="Rectangle 64" width="74" height="74" rx="5" transform="translate(475 4118)" fill="#efefef"/>
+                          <rect id="Rectangle_65-5" data-name="Rectangle 65" width="74" height="74" rx="5" transform="translate(574 4118)" fill="#efefef"/>
+                        </g>
+                      </g>
+                      <g id="Repeat_Grid_2-3" data-name="Repeat Grid 2" clip-path="url(#clip-path-2)">
+                        <g transform="translate(-376 -4018)">
+                          <rect id="Rectangle_60-6" data-name="Rectangle 60" width="74" height="74" rx="5" transform="translate(376 4018)" fill="#fff"/>
+                          <rect id="Rectangle_61-6" data-name="Rectangle 61" width="74" height="74" rx="5" transform="translate(475 4018)" fill="#fff"/>
+                          <rect id="Rectangle_62-6" data-name="Rectangle 62" width="74" height="74" rx="5" transform="translate(574 4018)" fill="#fff"/>
+                          <rect id="Rectangle_63-6" data-name="Rectangle 63" width="74" height="74" rx="5" transform="translate(376 4118)" fill="#fff"/>
+                          <rect id="Rectangle_64-6" data-name="Rectangle 64" width="74" height="74" rx="5" transform="translate(475 4118)" fill="#fff"/>
+                          <rect id="Rectangle_65-6" data-name="Rectangle 65" width="74" height="74" rx="5" transform="translate(574 4118)" fill="#fff"/>
+                        </g>
+                      </g>
+                    </g>
+                    <g id="Group_194-4" data-name="Group 194" transform="translate(165)">
+                      <g id="Repeat_Grid_3-4" data-name="Repeat Grid 3" transform="translate(0 2.114)" clip-path="url(#clip-path-2)">
+                        <g transform="translate(-376 -4018)">
+                          <rect id="Rectangle_60-7" data-name="Rectangle 60" width="74" height="74" rx="5" transform="translate(376 4018)" fill="#efefef"/>
+                          <rect id="Rectangle_61-7" data-name="Rectangle 61" width="74" height="74" rx="5" transform="translate(475 4018)" fill="#efefef"/>
+                          <rect id="Rectangle_62-7" data-name="Rectangle 62" width="74" height="74" rx="5" transform="translate(574 4018)" fill="#efefef"/>
+                          <rect id="Rectangle_63-7" data-name="Rectangle 63" width="74" height="74" rx="5" transform="translate(376 4118)" fill="#efefef"/>
+                          <rect id="Rectangle_64-7" data-name="Rectangle 64" width="74" height="74" rx="5" transform="translate(475 4118)" fill="#efefef"/>
+                          <rect id="Rectangle_65-7" data-name="Rectangle 65" width="74" height="74" rx="5" transform="translate(574 4118)" fill="#efefef"/>
+                        </g>
+                      </g>
+                      <g id="Repeat_Grid_2-4" data-name="Repeat Grid 2" clip-path="url(#clip-path-2)">
+                        <g transform="translate(-376 -4018)">
+                          <rect id="Rectangle_60-8" data-name="Rectangle 60" width="74" height="74" rx="5" transform="translate(376 4018)" fill="#fff"/>
+                          <rect id="Rectangle_61-8" data-name="Rectangle 61" width="74" height="74" rx="5" transform="translate(475 4018)" fill="#fff"/>
+                          <rect id="Rectangle_62-8" data-name="Rectangle 62" width="74" height="74" rx="5" transform="translate(574 4018)" fill="#fff"/>
+                          <rect id="Rectangle_63-8" data-name="Rectangle 63" width="74" height="74" rx="5" transform="translate(376 4118)" fill="#fff"/>
+                          <rect id="Rectangle_64-8" data-name="Rectangle 64" width="74" height="74" rx="5" transform="translate(475 4118)" fill="#fff"/>
+                          <rect id="Rectangle_65-8" data-name="Rectangle 65" width="74" height="74" rx="5" transform="translate(574 4118)" fill="#fff"/>
+                        </g>
+                      </g>
+                    </g>
+                    <g id="Group_194-5" data-name="Group 194" transform="translate(220)">
+                      <g id="Repeat_Grid_3-5" data-name="Repeat Grid 3" transform="translate(0 2.114)" clip-path="url(#clip-path-2)">
+                        <g transform="translate(-376 -4018)">
+                          <rect id="Rectangle_60-9" data-name="Rectangle 60" width="74" height="74" rx="5" transform="translate(376 4018)" fill="#efefef"/>
+                          <rect id="Rectangle_61-9" data-name="Rectangle 61" width="74" height="74" rx="5" transform="translate(475 4018)" fill="#efefef"/>
+                          <rect id="Rectangle_62-9" data-name="Rectangle 62" width="74" height="74" rx="5" transform="translate(574 4018)" fill="#efefef"/>
+                          <rect id="Rectangle_63-9" data-name="Rectangle 63" width="74" height="74" rx="5" transform="translate(376 4118)" fill="#efefef"/>
+                          <rect id="Rectangle_64-9" data-name="Rectangle 64" width="74" height="74" rx="5" transform="translate(475 4118)" fill="#efefef"/>
+                          <rect id="Rectangle_65-9" data-name="Rectangle 65" width="74" height="74" rx="5" transform="translate(574 4118)" fill="#efefef"/>
+                        </g>
+                      </g>
+                      <g id="Repeat_Grid_2-5" data-name="Repeat Grid 2" clip-path="url(#clip-path-2)">
+                        <g transform="translate(-376 -4018)">
+                          <rect id="Rectangle_60-10" data-name="Rectangle 60" width="74" height="74" rx="5" transform="translate(376 4018)" fill="#fff"/>
+                          <rect id="Rectangle_61-10" data-name="Rectangle 61" width="74" height="74" rx="5" transform="translate(475 4018)" fill="#fff"/>
+                          <rect id="Rectangle_62-10" data-name="Rectangle 62" width="74" height="74" rx="5" transform="translate(574 4018)" fill="#fff"/>
+                          <rect id="Rectangle_63-10" data-name="Rectangle 63" width="74" height="74" rx="5" transform="translate(376 4118)" fill="#fff"/>
+                          <rect id="Rectangle_64-10" data-name="Rectangle 64" width="74" height="74" rx="5" transform="translate(475 4118)" fill="#fff"/>
+                          <rect id="Rectangle_65-10" data-name="Rectangle 65" width="74" height="74" rx="5" transform="translate(574 4118)" fill="#fff"/>
+                        </g>
+                      </g>
+                    </g>
+                    <g id="Group_194-6" data-name="Group 194" transform="translate(0 56)">
+                      <g id="Repeat_Grid_3-6" data-name="Repeat Grid 3" transform="translate(0 2.114)" clip-path="url(#clip-path-2)">
+                        <g transform="translate(-376 -4018)">
+                          <rect id="Rectangle_60-11" data-name="Rectangle 60" width="74" height="74" rx="5" transform="translate(376 4018)" fill="#efefef"/>
+                          <rect id="Rectangle_61-11" data-name="Rectangle 61" width="74" height="74" rx="5" transform="translate(475 4018)" fill="#efefef"/>
+                          <rect id="Rectangle_62-11" data-name="Rectangle 62" width="74" height="74" rx="5" transform="translate(574 4018)" fill="#efefef"/>
+                          <rect id="Rectangle_63-11" data-name="Rectangle 63" width="74" height="74" rx="5" transform="translate(376 4118)" fill="#efefef"/>
+                          <rect id="Rectangle_64-11" data-name="Rectangle 64" width="74" height="74" rx="5" transform="translate(475 4118)" fill="#efefef"/>
+                          <rect id="Rectangle_65-11" data-name="Rectangle 65" width="74" height="74" rx="5" transform="translate(574 4118)" fill="#efefef"/>
+                        </g>
+                      </g>
+                      <g id="Repeat_Grid_2-6" data-name="Repeat Grid 2" clip-path="url(#clip-path-2)">
+                        <g transform="translate(-376 -4018)">
+                          <rect id="Rectangle_60-12" data-name="Rectangle 60" width="74" height="74" rx="5" transform="translate(376 4018)" fill="#fff"/>
+                          <rect id="Rectangle_61-12" data-name="Rectangle 61" width="74" height="74" rx="5" transform="translate(475 4018)" fill="#fff"/>
+                          <rect id="Rectangle_62-12" data-name="Rectangle 62" width="74" height="74" rx="5" transform="translate(574 4018)" fill="#fff"/>
+                          <rect id="Rectangle_63-12" data-name="Rectangle 63" width="74" height="74" rx="5" transform="translate(376 4118)" fill="#fff"/>
+                          <rect id="Rectangle_64-12" data-name="Rectangle 64" width="74" height="74" rx="5" transform="translate(475 4118)" fill="#fff"/>
+                          <rect id="Rectangle_65-12" data-name="Rectangle 65" width="74" height="74" rx="5" transform="translate(574 4118)" fill="#fff"/>
+                        </g>
+                      </g>
+                    </g>
+                    <g id="Group_194-7" data-name="Group 194" transform="translate(55 56)">
+                      <g id="Repeat_Grid_3-7" data-name="Repeat Grid 3" transform="translate(0 2.114)" clip-path="url(#clip-path-2)">
+                        <g transform="translate(-376 -4018)">
+                          <rect id="Rectangle_60-13" data-name="Rectangle 60" width="74" height="74" rx="5" transform="translate(376 4018)" fill="#efefef"/>
+                          <rect id="Rectangle_61-13" data-name="Rectangle 61" width="74" height="74" rx="5" transform="translate(475 4018)" fill="#efefef"/>
+                          <rect id="Rectangle_62-13" data-name="Rectangle 62" width="74" height="74" rx="5" transform="translate(574 4018)" fill="#efefef"/>
+                          <rect id="Rectangle_63-13" data-name="Rectangle 63" width="74" height="74" rx="5" transform="translate(376 4118)" fill="#efefef"/>
+                          <rect id="Rectangle_64-13" data-name="Rectangle 64" width="74" height="74" rx="5" transform="translate(475 4118)" fill="#efefef"/>
+                          <rect id="Rectangle_65-13" data-name="Rectangle 65" width="74" height="74" rx="5" transform="translate(574 4118)" fill="#efefef"/>
+                        </g>
+                      </g>
+                      <g id="Repeat_Grid_2-7" data-name="Repeat Grid 2" clip-path="url(#clip-path-2)">
+                        <g transform="translate(-376 -4018)">
+                          <rect id="Rectangle_60-14" data-name="Rectangle 60" width="74" height="74" rx="5" transform="translate(376 4018)" fill="#fff"/>
+                          <rect id="Rectangle_61-14" data-name="Rectangle 61" width="74" height="74" rx="5" transform="translate(475 4018)" fill="#fff"/>
+                          <rect id="Rectangle_62-14" data-name="Rectangle 62" width="74" height="74" rx="5" transform="translate(574 4018)" fill="#fff"/>
+                          <rect id="Rectangle_63-14" data-name="Rectangle 63" width="74" height="74" rx="5" transform="translate(376 4118)" fill="#fff"/>
+                          <rect id="Rectangle_64-14" data-name="Rectangle 64" width="74" height="74" rx="5" transform="translate(475 4118)" fill="#fff"/>
+                          <rect id="Rectangle_65-14" data-name="Rectangle 65" width="74" height="74" rx="5" transform="translate(574 4118)" fill="#fff"/>
+                        </g>
+                      </g>
+                    </g>
+                    <g id="Group_194-8" data-name="Group 194" transform="translate(110 56)">
+                      <g id="Repeat_Grid_3-8" data-name="Repeat Grid 3" transform="translate(0 2.114)" clip-path="url(#clip-path-2)">
+                        <g transform="translate(-376 -4018)">
+                          <rect id="Rectangle_60-15" data-name="Rectangle 60" width="74" height="74" rx="5" transform="translate(376 4018)" fill="#efefef"/>
+                          <rect id="Rectangle_61-15" data-name="Rectangle 61" width="74" height="74" rx="5" transform="translate(475 4018)" fill="#efefef"/>
+                          <rect id="Rectangle_62-15" data-name="Rectangle 62" width="74" height="74" rx="5" transform="translate(574 4018)" fill="#efefef"/>
+                          <rect id="Rectangle_63-15" data-name="Rectangle 63" width="74" height="74" rx="5" transform="translate(376 4118)" fill="#efefef"/>
+                          <rect id="Rectangle_64-15" data-name="Rectangle 64" width="74" height="74" rx="5" transform="translate(475 4118)" fill="#efefef"/>
+                          <rect id="Rectangle_65-15" data-name="Rectangle 65" width="74" height="74" rx="5" transform="translate(574 4118)" fill="#efefef"/>
+                        </g>
+                      </g>
+                      <g id="Repeat_Grid_2-8" data-name="Repeat Grid 2" clip-path="url(#clip-path-2)">
+                        <g transform="translate(-376 -4018)">
+                          <rect id="Rectangle_60-16" data-name="Rectangle 60" width="74" height="74" rx="5" transform="translate(376 4018)" fill="#fff"/>
+                          <rect id="Rectangle_61-16" data-name="Rectangle 61" width="74" height="74" rx="5" transform="translate(475 4018)" fill="#fff"/>
+                          <rect id="Rectangle_62-16" data-name="Rectangle 62" width="74" height="74" rx="5" transform="translate(574 4018)" fill="#fff"/>
+                          <rect id="Rectangle_63-16" data-name="Rectangle 63" width="74" height="74" rx="5" transform="translate(376 4118)" fill="#fff"/>
+                          <rect id="Rectangle_64-16" data-name="Rectangle 64" width="74" height="74" rx="5" transform="translate(475 4118)" fill="#fff"/>
+                          <rect id="Rectangle_65-16" data-name="Rectangle 65" width="74" height="74" rx="5" transform="translate(574 4118)" fill="#fff"/>
+                        </g>
+                      </g>
+                    </g>
+                    <g id="Group_194-9" data-name="Group 194" transform="translate(165 56)">
+                      <g id="Repeat_Grid_3-9" data-name="Repeat Grid 3" transform="translate(0 2.114)" clip-path="url(#clip-path-2)">
+                        <g transform="translate(-376 -4018)">
+                          <rect id="Rectangle_60-17" data-name="Rectangle 60" width="74" height="74" rx="5" transform="translate(376 4018)" fill="#efefef"/>
+                          <rect id="Rectangle_61-17" data-name="Rectangle 61" width="74" height="74" rx="5" transform="translate(475 4018)" fill="#efefef"/>
+                          <rect id="Rectangle_62-17" data-name="Rectangle 62" width="74" height="74" rx="5" transform="translate(574 4018)" fill="#efefef"/>
+                          <rect id="Rectangle_63-17" data-name="Rectangle 63" width="74" height="74" rx="5" transform="translate(376 4118)" fill="#efefef"/>
+                          <rect id="Rectangle_64-17" data-name="Rectangle 64" width="74" height="74" rx="5" transform="translate(475 4118)" fill="#efefef"/>
+                          <rect id="Rectangle_65-17" data-name="Rectangle 65" width="74" height="74" rx="5" transform="translate(574 4118)" fill="#efefef"/>
+                        </g>
+                      </g>
+                      <g id="Repeat_Grid_2-9" data-name="Repeat Grid 2" clip-path="url(#clip-path-2)">
+                        <g transform="translate(-376 -4018)">
+                          <rect id="Rectangle_60-18" data-name="Rectangle 60" width="74" height="74" rx="5" transform="translate(376 4018)" fill="#fff"/>
+                          <rect id="Rectangle_61-18" data-name="Rectangle 61" width="74" height="74" rx="5" transform="translate(475 4018)" fill="#fff"/>
+                          <rect id="Rectangle_62-18" data-name="Rectangle 62" width="74" height="74" rx="5" transform="translate(574 4018)" fill="#fff"/>
+                          <rect id="Rectangle_63-18" data-name="Rectangle 63" width="74" height="74" rx="5" transform="translate(376 4118)" fill="#fff"/>
+                          <rect id="Rectangle_64-18" data-name="Rectangle 64" width="74" height="74" rx="5" transform="translate(475 4118)" fill="#fff"/>
+                          <rect id="Rectangle_65-18" data-name="Rectangle 65" width="74" height="74" rx="5" transform="translate(574 4118)" fill="#fff"/>
+                        </g>
+                      </g>
+                    </g>
+                    <g id="Group_194-10" data-name="Group 194" transform="translate(220 56)">
+                      <g id="Repeat_Grid_3-10" data-name="Repeat Grid 3" transform="translate(0 2.114)" clip-path="url(#clip-path-2)">
+                        <g transform="translate(-376 -4018)">
+                          <rect id="Rectangle_60-19" data-name="Rectangle 60" width="74" height="74" rx="5" transform="translate(376 4018)" fill="#efefef"/>
+                          <rect id="Rectangle_61-19" data-name="Rectangle 61" width="74" height="74" rx="5" transform="translate(475 4018)" fill="#efefef"/>
+                          <rect id="Rectangle_62-19" data-name="Rectangle 62" width="74" height="74" rx="5" transform="translate(574 4018)" fill="#efefef"/>
+                          <rect id="Rectangle_63-19" data-name="Rectangle 63" width="74" height="74" rx="5" transform="translate(376 4118)" fill="#efefef"/>
+                          <rect id="Rectangle_64-19" data-name="Rectangle 64" width="74" height="74" rx="5" transform="translate(475 4118)" fill="#efefef"/>
+                          <rect id="Rectangle_65-19" data-name="Rectangle 65" width="74" height="74" rx="5" transform="translate(574 4118)" fill="#efefef"/>
+                        </g>
+                      </g>
+                      <g id="Repeat_Grid_2-10" data-name="Repeat Grid 2" clip-path="url(#clip-path-2)">
+                        <g transform="translate(-376 -4018)">
+                          <rect id="Rectangle_60-20" data-name="Rectangle 60" width="74" height="74" rx="5" transform="translate(376 4018)" fill="#fff"/>
+                          <rect id="Rectangle_61-20" data-name="Rectangle 61" width="74" height="74" rx="5" transform="translate(475 4018)" fill="#fff"/>
+                          <rect id="Rectangle_62-20" data-name="Rectangle 62" width="74" height="74" rx="5" transform="translate(574 4018)" fill="#fff"/>
+                          <rect id="Rectangle_63-20" data-name="Rectangle 63" width="74" height="74" rx="5" transform="translate(376 4118)" fill="#fff"/>
+                          <rect id="Rectangle_64-20" data-name="Rectangle 64" width="74" height="74" rx="5" transform="translate(475 4118)" fill="#fff"/>
+                          <rect id="Rectangle_65-20" data-name="Rectangle 65" width="74" height="74" rx="5" transform="translate(574 4118)" fill="#fff"/>
+                        </g>
+                      </g>
+                    </g>
+                    <g id="Group_194-11" data-name="Group 194" transform="translate(0 112)">
+                      <g id="Repeat_Grid_3-11" data-name="Repeat Grid 3" transform="translate(0 2.114)" clip-path="url(#clip-path-2)">
+                        <g transform="translate(-376 -4018)">
+                          <rect id="Rectangle_60-21" data-name="Rectangle 60" width="74" height="74" rx="5" transform="translate(376 4018)" fill="#efefef"/>
+                          <rect id="Rectangle_61-21" data-name="Rectangle 61" width="74" height="74" rx="5" transform="translate(475 4018)" fill="#efefef"/>
+                          <rect id="Rectangle_62-21" data-name="Rectangle 62" width="74" height="74" rx="5" transform="translate(574 4018)" fill="#efefef"/>
+                          <rect id="Rectangle_63-21" data-name="Rectangle 63" width="74" height="74" rx="5" transform="translate(376 4118)" fill="#efefef"/>
+                          <rect id="Rectangle_64-21" data-name="Rectangle 64" width="74" height="74" rx="5" transform="translate(475 4118)" fill="#efefef"/>
+                          <rect id="Rectangle_65-21" data-name="Rectangle 65" width="74" height="74" rx="5" transform="translate(574 4118)" fill="#efefef"/>
+                        </g>
+                      </g>
+                      <g id="Repeat_Grid_2-11" data-name="Repeat Grid 2" clip-path="url(#clip-path-2)">
+                        <g transform="translate(-376 -4018)">
+                          <rect id="Rectangle_60-22" data-name="Rectangle 60" width="74" height="74" rx="5" transform="translate(376 4018)" fill="#fff"/>
+                          <rect id="Rectangle_61-22" data-name="Rectangle 61" width="74" height="74" rx="5" transform="translate(475 4018)" fill="#fff"/>
+                          <rect id="Rectangle_62-22" data-name="Rectangle 62" width="74" height="74" rx="5" transform="translate(574 4018)" fill="#fff"/>
+                          <rect id="Rectangle_63-22" data-name="Rectangle 63" width="74" height="74" rx="5" transform="translate(376 4118)" fill="#fff"/>
+                          <rect id="Rectangle_64-22" data-name="Rectangle 64" width="74" height="74" rx="5" transform="translate(475 4118)" fill="#fff"/>
+                          <rect id="Rectangle_65-22" data-name="Rectangle 65" width="74" height="74" rx="5" transform="translate(574 4118)" fill="#fff"/>
+                        </g>
+                      </g>
+                    </g>
+                    <g id="Group_194-12" data-name="Group 194" transform="translate(55 112)">
+                      <g id="Repeat_Grid_3-12" data-name="Repeat Grid 3" transform="translate(0 2.114)" clip-path="url(#clip-path-2)">
+                        <g transform="translate(-376 -4018)">
+                          <rect id="Rectangle_60-23" data-name="Rectangle 60" width="74" height="74" rx="5" transform="translate(376 4018)" fill="#efefef"/>
+                          <rect id="Rectangle_61-23" data-name="Rectangle 61" width="74" height="74" rx="5" transform="translate(475 4018)" fill="#efefef"/>
+                          <rect id="Rectangle_62-23" data-name="Rectangle 62" width="74" height="74" rx="5" transform="translate(574 4018)" fill="#efefef"/>
+                          <rect id="Rectangle_63-23" data-name="Rectangle 63" width="74" height="74" rx="5" transform="translate(376 4118)" fill="#efefef"/>
+                          <rect id="Rectangle_64-23" data-name="Rectangle 64" width="74" height="74" rx="5" transform="translate(475 4118)" fill="#efefef"/>
+                          <rect id="Rectangle_65-23" data-name="Rectangle 65" width="74" height="74" rx="5" transform="translate(574 4118)" fill="#efefef"/>
+                        </g>
+                      </g>
+                      <g id="Repeat_Grid_2-12" data-name="Repeat Grid 2" clip-path="url(#clip-path-2)">
+                        <g transform="translate(-376 -4018)">
+                          <rect id="Rectangle_60-24" data-name="Rectangle 60" width="74" height="74" rx="5" transform="translate(376 4018)" fill="#fff"/>
+                          <rect id="Rectangle_61-24" data-name="Rectangle 61" width="74" height="74" rx="5" transform="translate(475 4018)" fill="#fff"/>
+                          <rect id="Rectangle_62-24" data-name="Rectangle 62" width="74" height="74" rx="5" transform="translate(574 4018)" fill="#fff"/>
+                          <rect id="Rectangle_63-24" data-name="Rectangle 63" width="74" height="74" rx="5" transform="translate(376 4118)" fill="#fff"/>
+                          <rect id="Rectangle_64-24" data-name="Rectangle 64" width="74" height="74" rx="5" transform="translate(475 4118)" fill="#fff"/>
+                          <rect id="Rectangle_65-24" data-name="Rectangle 65" width="74" height="74" rx="5" transform="translate(574 4118)" fill="#fff"/>
+                        </g>
+                      </g>
+                    </g>
+                    <g id="Group_194-13" data-name="Group 194" transform="translate(110 112)">
+                      <g id="Repeat_Grid_3-13" data-name="Repeat Grid 3" transform="translate(0 2.114)" clip-path="url(#clip-path-2)">
+                        <g transform="translate(-376 -4018)">
+                          <rect id="Rectangle_60-25" data-name="Rectangle 60" width="74" height="74" rx="5" transform="translate(376 4018)" fill="#efefef"/>
+                          <rect id="Rectangle_61-25" data-name="Rectangle 61" width="74" height="74" rx="5" transform="translate(475 4018)" fill="#efefef"/>
+                          <rect id="Rectangle_62-25" data-name="Rectangle 62" width="74" height="74" rx="5" transform="translate(574 4018)" fill="#efefef"/>
+                          <rect id="Rectangle_63-25" data-name="Rectangle 63" width="74" height="74" rx="5" transform="translate(376 4118)" fill="#efefef"/>
+                          <rect id="Rectangle_64-25" data-name="Rectangle 64" width="74" height="74" rx="5" transform="translate(475 4118)" fill="#efefef"/>
+                          <rect id="Rectangle_65-25" data-name="Rectangle 65" width="74" height="74" rx="5" transform="translate(574 4118)" fill="#efefef"/>
+                        </g>
+                      </g>
+                      <g id="Repeat_Grid_2-13" data-name="Repeat Grid 2" clip-path="url(#clip-path-2)">
+                        <g transform="translate(-376 -4018)">
+                          <rect id="Rectangle_60-26" data-name="Rectangle 60" width="74" height="74" rx="5" transform="translate(376 4018)" fill="#fff"/>
+                          <rect id="Rectangle_61-26" data-name="Rectangle 61" width="74" height="74" rx="5" transform="translate(475 4018)" fill="#fff"/>
+                          <rect id="Rectangle_62-26" data-name="Rectangle 62" width="74" height="74" rx="5" transform="translate(574 4018)" fill="#fff"/>
+                          <rect id="Rectangle_63-26" data-name="Rectangle 63" width="74" height="74" rx="5" transform="translate(376 4118)" fill="#fff"/>
+                          <rect id="Rectangle_64-26" data-name="Rectangle 64" width="74" height="74" rx="5" transform="translate(475 4118)" fill="#fff"/>
+                          <rect id="Rectangle_65-26" data-name="Rectangle 65" width="74" height="74" rx="5" transform="translate(574 4118)" fill="#fff"/>
+                        </g>
+                      </g>
+                    </g>
+                    <g id="Group_194-14" data-name="Group 194" transform="translate(165 112)">
+                      <g id="Repeat_Grid_3-14" data-name="Repeat Grid 3" transform="translate(0 2.114)" clip-path="url(#clip-path-2)">
+                        <g transform="translate(-376 -4018)">
+                          <rect id="Rectangle_60-27" data-name="Rectangle 60" width="74" height="74" rx="5" transform="translate(376 4018)" fill="#efefef"/>
+                          <rect id="Rectangle_61-27" data-name="Rectangle 61" width="74" height="74" rx="5" transform="translate(475 4018)" fill="#efefef"/>
+                          <rect id="Rectangle_62-27" data-name="Rectangle 62" width="74" height="74" rx="5" transform="translate(574 4018)" fill="#efefef"/>
+                          <rect id="Rectangle_63-27" data-name="Rectangle 63" width="74" height="74" rx="5" transform="translate(376 4118)" fill="#efefef"/>
+                          <rect id="Rectangle_64-27" data-name="Rectangle 64" width="74" height="74" rx="5" transform="translate(475 4118)" fill="#efefef"/>
+                          <rect id="Rectangle_65-27" data-name="Rectangle 65" width="74" height="74" rx="5" transform="translate(574 4118)" fill="#efefef"/>
+                        </g>
+                      </g>
+                      <g id="Repeat_Grid_2-14" data-name="Repeat Grid 2" clip-path="url(#clip-path-2)">
+                        <g transform="translate(-376 -4018)">
+                          <rect id="Rectangle_60-28" data-name="Rectangle 60" width="74" height="74" rx="5" transform="translate(376 4018)" fill="#fff"/>
+                          <rect id="Rectangle_61-28" data-name="Rectangle 61" width="74" height="74" rx="5" transform="translate(475 4018)" fill="#fff"/>
+                          <rect id="Rectangle_62-28" data-name="Rectangle 62" width="74" height="74" rx="5" transform="translate(574 4018)" fill="#fff"/>
+                          <rect id="Rectangle_63-28" data-name="Rectangle 63" width="74" height="74" rx="5" transform="translate(376 4118)" fill="#fff"/>
+                          <rect id="Rectangle_64-28" data-name="Rectangle 64" width="74" height="74" rx="5" transform="translate(475 4118)" fill="#fff"/>
+                          <rect id="Rectangle_65-28" data-name="Rectangle 65" width="74" height="74" rx="5" transform="translate(574 4118)" fill="#fff"/>
+                        </g>
+                      </g>
+                    </g>
+                    <g id="Group_194-15" data-name="Group 194" transform="translate(220 112)">
+                      <g id="Repeat_Grid_3-15" data-name="Repeat Grid 3" transform="translate(0 2.114)" clip-path="url(#clip-path-2)">
+                        <g transform="translate(-376 -4018)">
+                          <rect id="Rectangle_60-29" data-name="Rectangle 60" width="74" height="74" rx="5" transform="translate(376 4018)" fill="#efefef"/>
+                          <rect id="Rectangle_61-29" data-name="Rectangle 61" width="74" height="74" rx="5" transform="translate(475 4018)" fill="#efefef"/>
+                          <rect id="Rectangle_62-29" data-name="Rectangle 62" width="74" height="74" rx="5" transform="translate(574 4018)" fill="#efefef"/>
+                          <rect id="Rectangle_63-29" data-name="Rectangle 63" width="74" height="74" rx="5" transform="translate(376 4118)" fill="#efefef"/>
+                          <rect id="Rectangle_64-29" data-name="Rectangle 64" width="74" height="74" rx="5" transform="translate(475 4118)" fill="#efefef"/>
+                          <rect id="Rectangle_65-29" data-name="Rectangle 65" width="74" height="74" rx="5" transform="translate(574 4118)" fill="#efefef"/>
+                        </g>
+                      </g>
+                      <g id="Repeat_Grid_2-15" data-name="Repeat Grid 2" clip-path="url(#clip-path-2)">
+                        <g transform="translate(-376 -4018)">
+                          <rect id="Rectangle_60-30" data-name="Rectangle 60" width="74" height="74" rx="5" transform="translate(376 4018)" fill="#fff"/>
+                          <rect id="Rectangle_61-30" data-name="Rectangle 61" width="74" height="74" rx="5" transform="translate(475 4018)" fill="#fff"/>
+                          <rect id="Rectangle_62-30" data-name="Rectangle 62" width="74" height="74" rx="5" transform="translate(574 4018)" fill="#fff"/>
+                          <rect id="Rectangle_63-30" data-name="Rectangle 63" width="74" height="74" rx="5" transform="translate(376 4118)" fill="#fff"/>
+                          <rect id="Rectangle_64-30" data-name="Rectangle 64" width="74" height="74" rx="5" transform="translate(475 4118)" fill="#fff"/>
+                          <rect id="Rectangle_65-30" data-name="Rectangle 65" width="74" height="74" rx="5" transform="translate(574 4118)" fill="#fff"/>
+                        </g>
+                      </g>
+                    </g>
+                  </g>
+                </g>
+              </g>
+              <rect id="Rectangle_68" data-name="Rectangle 68" width="6.124" height="2.161" rx="1.081" transform="translate(79.728 161.741)" fill="#585858"/>
+              <circle id="Ellipse_32" data-name="Ellipse 32" cx="1.081" cy="1.081" r="1.081" transform="translate(95.603 161.741)" fill="#585858"/>
+              <circle id="Ellipse_33" data-name="Ellipse 33" cx="1.081" cy="1.081" r="1.081" transform="translate(128.857 161.741)" fill="#585858"/>
+              <circle id="Ellipse_34" data-name="Ellipse 34" cx="1.081" cy="1.081" r="1.081" transform="translate(120.543 161.741)" fill="#585858"/>
+              <circle id="Ellipse_35" data-name="Ellipse 35" cx="1.081" cy="1.081" r="1.081" transform="translate(103.917 161.741)" fill="#585858"/>
+              <circle id="Ellipse_36" data-name="Ellipse 36" cx="1.081" cy="1.081" r="1.081" transform="translate(112.23 161.741)" fill="#585858"/>
+              <rect id="Rectangle_69" data-name="Rectangle 69" width="6.124" height="2.161" rx="1.081" transform="translate(139.948 161.741)" fill="#585858"/>
+              <rect id="Rectangle_66" data-name="Rectangle 66" width="6.124" height="2.161" rx="1.081" transform="translate(79.728 161.381)" fill="#7d7d7d"/>
+              <circle id="Ellipse_22" data-name="Ellipse 22" cx="1.081" cy="1.081" r="1.081" transform="translate(95.603 161.381)" fill="#7d7d7d"/>
+              <circle id="Ellipse_28" data-name="Ellipse 28" cx="1.081" cy="1.081" r="1.081" transform="translate(128.857 161.381)" fill="#7d7d7d"/>
+              <circle id="Ellipse_29" data-name="Ellipse 29" cx="1.081" cy="1.081" r="1.081" transform="translate(120.543 161.381)" fill="#7d7d7d"/>
+              <circle id="Ellipse_30" data-name="Ellipse 30" cx="1.081" cy="1.081" r="1.081" transform="translate(103.917 161.381)" fill="#7d7d7d"/>
+              <circle id="Ellipse_31" data-name="Ellipse 31" cx="1.081" cy="1.081" r="1.081" transform="translate(112.23 161.381)" fill="#7d7d7d"/>
+              <rect id="Rectangle_67" data-name="Rectangle 67" width="6.124" height="2.161" rx="1.081" transform="translate(139.948 161.381)" fill="#7d7d7d"/>
+            </g>
+          </g>
+        </g>
+      </g>
+    </g>
+  </g>
+</svg>

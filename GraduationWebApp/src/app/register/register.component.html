@@ -1,0 +1,104 @@
+
+<app-background></app-background>
+<div class="content">
+        <div *ngIf="step == 1" class="modal" fxLayout="column" fxLayoutAlign="start center">
+
+            <div class="header">
+                <h3>Create a new Account</h3>
+            </div>
+            <p id="message" *ngIf="responseMessage != ''" >{{responseMessage}}</p>
+            <form action="" fxLayout="column" [formGroup]="registerForm" >
+                <div class="field" fxLayout="column">
+                    <label for="Name">Name</label>
+                    <input name="Name" formControlName="Name" type="text" pattern="[a-zA-Z]*">
+                    <p class="error">{{formErrors.Name}}</p>
+                </div>
+                <div class="field" fxLayout="column">
+                    <label for="Email">EMAIL</label>
+                    <input name="Email" formControlName="Email" type="text">
+                    <p class="error">{{formErrors.Email}}</p>
+                </div>
+                <div fxLayout>
+                    <div class="field half" fxLayout="column">
+                        <label for="Password">PASSWORD</label>
+                        <input name="Password" type="text" formControlName="Password" pattern="[a-zA-Z0-9]*">
+                        <p class="error">{{formErrors.Password}}</p>
+                    </div>
+                    <div class="splitter"></div>
+                    <div class="field half" fxLayout="column">
+                        <label for="ConfirmPassword">Confirm Password</label>
+                        <input name="ConfirmPassword" formControlName="ConfirmPassword" type="text">
+                        <p class="error">{{formErrors.ConfirmPassword}}</p>
+                    </div>
+                </div>
+                <!--<div class="field" fxLayout="column">
+                    <label for="pgp">PGP KEY</label>
+                    <textarea name="pgp" formControlName="PGPKey"></textarea>
+                    <p class="error">{{formErrors.PGPKey}}</p>
+                </div>-->
+                
+                <a (click)="navigate('/Login')">Already have an account?</a>
+
+                <div *ngIf="registerForm.valid; then valid; else invalid"></div>
+                <ng-template #valid><button type="submit" (click)="openSubscriptions()">Submit</button></ng-template>
+                <ng-template #invalid><button class="inactive" type="submit" >Submit</button></ng-template>
+                
+            </form>
+        </div>
+
+    <div class="subscription-modal" *ngIf="step == 2" fxLayout="column" fxLayoutAlign="start center">
+        <h3>Subscriptions</h3>
+        <div class="cards"  fxLayout="row" fxLayoutAlign="start center">
+            <div class="sub-card" fxLayout="column" fxLayoutAlign='start center'>
+                <div class="header blue" fxLayout="column" fxLayoutAlign="start center">
+                    <h3 class="price">$90</h3>
+                    <p>per month</p>
+                </div>
+                <div class="body"fxLayout="column" fxLayoutAlign="start center">
+                    <ul>
+                        <li fxLayoutAlign> <img src="../../assets/checked.svg" alt=""> <p>Lorem Ipsum is simply dummy</p> </li>
+                        <li fxLayoutAlign> <img src="../../assets/checked.svg" alt=""> <p>Lorem Ipsum is simply dummy</p> </li>
+                        <li fxLayoutAlign> <img src="../../assets/checked.svg" alt=""> <p>Lorem Ipsum is simply dummy</p> </li>
+                        <li fxLayoutAlign> <img src="../../assets/checked.svg" alt=""> <p>Lorem Ipsum is simply dummy</p> </li>
+                    </ul>
+                    <div class="splitter"></div>
+                    <button (click)="onSubmit(1)">Subscribe</button>
+                </div>
+            </div>
+    
+            <div class="sub-card" fxLayout="column" fxLayoutAlign='start center'>
+                <div class="header purple" fxLayout="column" fxLayoutAlign="start center">
+                    <h3 class="price">$90</h3>
+                    <p>per month</p>
+                </div>
+                <div class="body"fxLayout="column" fxLayoutAlign="start center">
+                    <ul>
+                        <li fxLayoutAlign> <img src="../../assets/checked.svg" alt=""> <p>Lorem Ipsum is simply dummy</p> </li>
+                        <li fxLayoutAlign> <img src="../../assets/checked.svg" alt=""> <p>Lorem Ipsum is simply dummy</p> </li>
+                        <li fxLayoutAlign> <img src="../../assets/checked.svg" alt=""> <p>Lorem Ipsum is simply dummy</p> </li>
+                        <li fxLayoutAlign> <img src="../../assets/checked.svg" alt=""> <p>Lorem Ipsum is simply dummy</p> </li>
+                    </ul>
+                    <div class="splitter"></div>
+                    <button (click)="onSubmit(2)">Subscribe</button>
+                </div>
+            </div>
+    
+            <div class="sub-card" fxLayout="column" fxLayoutAlign='start center'>
+                <div class="header red" fxLayout="column" fxLayoutAlign="start center">
+                    <h3 class="price">$90</h3>
+                    <p>per month</p>
+                </div>
+                <div class="body"fxLayout="column" fxLayoutAlign="start center">
+                    <ul>
+                        <li fxLayoutAlign> <img src="../../assets/checked.svg" alt=""> <p>Lorem Ipsum is simply dummy</p> </li>
+                        <li fxLayoutAlign> <img src="../../assets/checked.svg" alt=""> <p>Lorem Ipsum is simply dummy</p> </li>
+                        <li fxLayoutAlign> <img src="../../assets/checked.svg" alt=""> <p>Lorem Ipsum is simply dummy</p> </li>
+                        <li fxLayoutAlign> <img src="../../assets/checked.svg" alt=""> <p>Lorem Ipsum is simply dummy</p> </li>
+                    </ul>
+                    <div class="splitter"></div>
+                    <button (click)="onSubmit(3)">Subscribe</button>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

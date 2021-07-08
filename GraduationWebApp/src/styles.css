@@ -1,0 +1,45 @@
+/* You can add global styles to this file, and also import other style files */
+body {
+  margin: 0;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  overflow-x: hidden;
+}
+
+.container {
+  margin: auto;
+  width: 1180px;
+}
+
+.splitter {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-flex: 1;
+      -ms-flex: 1 0;
+          flex: 1 0;
+}
+
+.round-home-button {
+  width: 130px;
+  height: 36px;
+  background-color: rgba(65, 236, 190, 0.87);
+  font-size: 16px;
+  text-transform: capitalize;
+  border-radius: 20px;
+  letter-spacing: 1px;
+  font-weight: 400;
+  color: #fff;
+  border-radius: 20px;
+  -webkit-box-shadow: 6px 6px 20px -6px rgba(38, 238, 138, 0.376);
+          box-shadow: 6px 6px 20px -6px rgba(38, 238, 138, 0.376);
+  border: 0;
+  -webkit-transition: ease all 0.3s;
+  transition: ease all 0.3s;
+}
+
+.round-home-button:hover {
+  -webkit-box-shadow: 6px 5px 12px 0px rgba(38, 238, 138, 0.376);
+          box-shadow: 6px 5px 12px 0px rgba(38, 238, 138, 0.376);
+  background-color: hlsa(164, 82%, 59%, 0.883);
+}
+/*# sourceMappingURL=styles.css.map */

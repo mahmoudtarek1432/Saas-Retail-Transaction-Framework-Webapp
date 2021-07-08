@@ -1,0 +1,90 @@
+.terminal-settings{
+    width: 96%;
+
+    background-color: #d4d4d448;
+    border-radius: 8px;
+    padding: 1% 2% 2% 2%;
+    h3{
+        color: #7A7A7A;
+        font-size: 19px;
+        margin-top: 0;
+    }
+    .block{
+        width: 30%;
+        .franchise{
+            height: 40px;
+            border: none;
+            border-radius: 5px;
+            width: 200px;
+            margin: 10px 0;
+        }
+        #logo{
+            display: none;
+        }
+        label{
+            height: 40px;
+            border: none;
+            border-radius: 5px;
+            width: 125px;
+            margin: 10px 0;
+            background-color: #fff;
+            text-align: center;
+            justify-content: center;
+            vertical-align: middle;
+        }
+        input{
+            padding-left: 13px;
+            
+            outline: none;
+            font-size: 16px;
+            color: #474747;
+        }
+        .error{
+            color: rgb(255, 36, 36);
+            font-size: 12px;
+            height: 15px;
+            margin: 2px;
+        }
+        .color{
+            height: 45px;
+
+            margin: 10px 0;
+            input{
+                border: none;
+                border-radius: 5px 0 0 5px;
+                width: 150px;
+                height: 100%;
+            }
+            .ColorBlock{
+                background-color: #818181;
+                width: 50px;
+                height: 100%;
+                border-radius: 0 5px 5px 0;
+            }
+        }
+        select{
+            height: 40px;
+            border: none;
+            border-radius: 5px;
+            width: 125px;
+            margin: 10px 0;
+            background-color: #fff;
+            text-align: center;
+            justify-content: center;
+            vertical-align: middle; 
+        }
+    }
+    .submit{
+        button{
+            background-color: #949494;
+            height: 40px;
+            width: 94px;
+            border-radius: 4px;
+            border: 0;
+            color: #fff;
+        }
+        .valid{
+            background-color: rgb(202, 88, 255);
+        }
+    }
+}

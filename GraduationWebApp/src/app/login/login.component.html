@@ -1,0 +1,28 @@
+<app-background></app-background>
+<div class="content">
+    <div class="modal" fxLayout="column" fxLayoutAlign="start center">
+        <div class="header">
+            <h3>Login</h3>
+        </div>
+        <p id="message" *ngIf="responseMessage != ''" >{{responseMessage}}</p>
+        <form action="" fxLayout="column" [formGroup]="loginForm" >
+            <div class="field" fxLayout="column">
+                <label for="Email">EMAIL</label>
+                <input name="Email" formControlName="Email" type="text">
+                <p class="error">{{formErrors.Email}}</p>
+            </div>
+            <div fxLayout>
+                <div class="field full" fxLayout="column">
+                    <label for="Password">PASSWORD</label>
+                    <input name="Password" type="text" formControlName="Password" pattern="[a-zA-Z0-9]*">
+                    <p class="error">{{formErrors.Password}}</p>
+                </div>
+            </div>
+            <a (click)="navigate('/Register')" >Register?</a>
+            <div *ngIf="loginForm.valid;then valid; else invalid"></div>
+
+            <ng-template #valid><button type="submit" (click)="onSubmit()">Submit</button></ng-template>
+            <ng-template #invalid><button class="inactive" type="submit" >Submit</button></ng-template>
+        </form>
+    </div>
+</div>

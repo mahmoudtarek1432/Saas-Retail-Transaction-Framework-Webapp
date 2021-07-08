@@ -1,0 +1,78 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="464" height="537" viewBox="0 0 464 537">
+  <defs>
+    <linearGradient id="linear-gradient" x1="0.027" y1="0.5" x2="1" y2="0.5" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#f8f8f8"/>
+      <stop offset="1" stop-color="#f2f2f2"/>
+    </linearGradient>
+    <linearGradient id="linear-gradient-4" x1="0.027" y1="0.5" x2="1" y2="0.5" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#f8f8f8"/>
+      <stop offset="1" stop-color="#f3f3f3"/>
+    </linearGradient>
+  </defs>
+  <g id="Group_233" data-name="Group 233" transform="translate(-1285 -4046)">
+    <g id="Group_226" data-name="Group 226" transform="translate(1285 4102.616)">
+      <path id="Rectangle_43" data-name="Rectangle 43" d="M0,0H164a0,0,0,0,1,0,0V480.384a0,0,0,0,1,0,0H30a30,30,0,0,1-30-30V0A0,0,0,0,1,0,0Z" fill="#606060"/>
+    </g>
+    <g id="Group_201" data-name="Group 201" transform="translate(542 -55)">
+      <g id="Group_197" data-name="Group 197">
+        <g id="Group_186" data-name="Group 186" transform="translate(532 188)">
+          <g id="Group_193" data-name="Group 193">
+            <path id="Rectangle_44" data-name="Rectangle 44" d="M30,0H434a30,30,0,0,1,30,30V60a0,0,0,0,1,0,0H0a0,0,0,0,1,0,0V30A30,30,0,0,1,30,0Z" transform="translate(211 3913)" fill="#5b5b5b"/>
+            <rect id="Rectangle_45" data-name="Rectangle 45" width="253" height="21" rx="10.5" transform="translate(384 3933)" fill="#3a3a3a"/>
+            <path id="Path_488" data-name="Path 488" d="M10.5,0A10.5,10.5,0,1,1,0,10.5,10.5,10.5,0,0,1,10.5,0Z" transform="translate(232 3933)" fill="#ff7d7d"/>
+            <circle id="Ellipse_20" data-name="Ellipse 20" cx="10.5" cy="10.5" r="10.5" transform="translate(273 3933)" fill="#fefa9c"/>
+            <circle id="Ellipse_21" data-name="Ellipse 21" cx="10.5" cy="10.5" r="10.5" transform="translate(314 3933)" fill="#a4f595"/>
+          </g>
+        </g>
+      </g>
+      <g id="Group_202" data-name="Group 202" transform="translate(0 -2)">
+        <rect id="Rectangle_55" data-name="Rectangle 55" width="65" height="13" rx="3" transform="translate(760 4207)" fill="#6d6d6d"/>
+        <rect id="Rectangle_56" data-name="Rectangle 56" width="94" height="13" rx="3" transform="translate(760 4233)" fill="#6d6d6d"/>
+        <rect id="Rectangle_57" data-name="Rectangle 57" width="73" height="13" rx="3" transform="translate(760 4259)" fill="#6d6d6d"/>
+        <rect id="Rectangle_58" data-name="Rectangle 58" width="47" height="13" rx="3" transform="translate(760 4285)" fill="#6d6d6d"/>
+        <rect id="Rectangle_59" data-name="Rectangle 59" width="101" height="13" rx="3" transform="translate(760 4311)" fill="#6d6d6d"/>
+        <g id="Group_196" data-name="Group 196" transform="translate(-206 3)">
+          <g id="Group_195" data-name="Group 195" transform="translate(530 187)">
+            <path id="Rectangle_54" data-name="Rectangle 54" d="M20,0H324.8a0,0,0,0,1,0,0V457a20,20,0,0,1-20,20H20A20,20,0,0,1,0,457V20A20,20,0,0,1,20,0Z" transform="translate(557 3973)" fill="rgba(248,248,248,0.41)"/>
+          </g>
+        </g>
+        <rect id="Rectangle_75" data-name="Rectangle 75" width="47" height="13" rx="3" transform="translate(760 4337)" fill="#6d6d6d"/>
+        <rect id="Rectangle_76" data-name="Rectangle 76" width="91" height="8" rx="3" transform="translate(999 4176)" fill="#828282"/>
+        <g id="Group_203" data-name="Group 203">
+          <rect id="Rectangle_79" data-name="Rectangle 79" width="289" height="65" rx="10" transform="translate(901 4214)" fill="#ebebeb"/>
+          <rect id="Rectangle_77" data-name="Rectangle 77" width="289" height="65" rx="10" transform="translate(901 4210)" fill="#fff"/>
+          <path id="Path_507" data-name="Path 507" d="M5,0H41a5,5,0,0,1,5,5V41a5,5,0,0,1-5,5H5a5,5,0,0,1-5-5V5A5,5,0,0,1,5,0Z" transform="translate(913 4219)" fill="#ff7d7d"/>
+          <path id="Path_504" data-name="Path 504" d="M3,0H88a3,3,0,0,1,3,3V5a3,3,0,0,1-3,3H3A3,3,0,0,1,0,5V3A3,3,0,0,1,3,0Z" transform="translate(976 4225)" fill="url(#linear-gradient)"/>
+          <path id="Path_505" data-name="Path 505" d="M4.5,0H132c2.485,0,4.5,1.343,4.5,3V5c0,1.657-2.015,3-4.5,3H4.5C2.015,8,0,6.657,0,5V3C0,1.343,2.015,0,4.5,0Z" transform="translate(976 4239)" fill="url(#linear-gradient)"/>
+          <path id="Path_506" data-name="Path 506" d="M4.5,0H132c2.485,0,4.5,1.343,4.5,3V5c0,1.657-2.015,3-4.5,3H4.5C2.015,8,0,6.657,0,5V3C0,1.343,2.015,0,4.5,0Z" transform="translate(976 4253)" fill="url(#linear-gradient)"/>
+        </g>
+        <g id="Group_204" data-name="Group 204">
+          <rect id="Rectangle_79-2" data-name="Rectangle 79" width="289" height="65" rx="10" transform="translate(901 4214)" fill="#ebebeb"/>
+          <rect id="Rectangle_77-2" data-name="Rectangle 77" width="289" height="65" rx="10" transform="translate(901 4210)" fill="#fff"/>
+          <path id="Path_507-2" data-name="Path 507" d="M5,0H41a5,5,0,0,1,5,5V41a5,5,0,0,1-5,5H5a5,5,0,0,1-5-5V5A5,5,0,0,1,5,0Z" transform="translate(913 4219)" fill="#ebc4ff"/>
+          <path id="Path_504-2" data-name="Path 504" d="M3,0H88a3,3,0,0,1,3,3V5a3,3,0,0,1-3,3H3A3,3,0,0,1,0,5V3A3,3,0,0,1,3,0Z" transform="translate(976 4225)" fill="url(#linear-gradient-4)"/>
+          <path id="Path_505-2" data-name="Path 505" d="M4.5,0H132c2.485,0,4.5,1.343,4.5,3V5c0,1.657-2.015,3-4.5,3H4.5C2.015,8,0,6.657,0,5V3C0,1.343,2.015,0,4.5,0Z" transform="translate(976 4239)" fill="url(#linear-gradient-4)"/>
+          <path id="Path_506-2" data-name="Path 506" d="M4.5,0H132c2.485,0,4.5,1.343,4.5,3V5c0,1.657-2.015,3-4.5,3H4.5C2.015,8,0,6.657,0,5V3C0,1.343,2.015,0,4.5,0Z" transform="translate(976 4253)" fill="url(#linear-gradient-4)"/>
+        </g>
+        <g id="Group_205" data-name="Group 205" transform="translate(0 80)">
+          <rect id="Rectangle_79-3" data-name="Rectangle 79" width="289" height="65" rx="10" transform="translate(901 4214)" fill="#ebebeb"/>
+          <rect id="Rectangle_77-3" data-name="Rectangle 77" width="289" height="65" rx="10" transform="translate(901 4210)" fill="#fff"/>
+          <path id="Path_507-3" data-name="Path 507" d="M5,0H41a5,5,0,0,1,5,5V41a5,5,0,0,1-5,5H5a5,5,0,0,1-5-5V5A5,5,0,0,1,5,0Z" transform="translate(913 4219)" fill="#ff9595"/>
+          <path id="Path_504-3" data-name="Path 504" d="M3,0H88a3,3,0,0,1,3,3V5a3,3,0,0,1-3,3H3A3,3,0,0,1,0,5V3A3,3,0,0,1,3,0Z" transform="translate(976 4225)" fill="url(#linear-gradient-4)"/>
+          <path id="Path_505-3" data-name="Path 505" d="M4.5,0H132c2.485,0,4.5,1.343,4.5,3V5c0,1.657-2.015,3-4.5,3H4.5C2.015,8,0,6.657,0,5V3C0,1.343,2.015,0,4.5,0Z" transform="translate(976 4239)" fill="url(#linear-gradient-4)"/>
+          <path id="Path_506-3" data-name="Path 506" d="M4.5,0H132c2.485,0,4.5,1.343,4.5,3V5c0,1.657-2.015,3-4.5,3H4.5C2.015,8,0,6.657,0,5V3C0,1.343,2.015,0,4.5,0Z" transform="translate(976 4253)" fill="url(#linear-gradient-4)"/>
+        </g>
+      </g>
+      <g id="Group_207" data-name="Group 207" transform="translate(447 127)">
+        <g id="Group_206" data-name="Group 206" transform="translate(-447 49)">
+          <rect id="Rectangle_79-4" data-name="Rectangle 79" width="289" height="65" rx="10" transform="translate(901 4214)" fill="#ebebeb"/>
+          <rect id="Rectangle_77-4" data-name="Rectangle 77" width="289" height="65" rx="10" transform="translate(901 4210)" fill="#fff"/>
+          <path id="Path_507-4" data-name="Path 507" d="M5,0H41a5,5,0,0,1,5,5V41a5,5,0,0,1-5,5H5a5,5,0,0,1-5-5V5A5,5,0,0,1,5,0Z" transform="translate(913 4219)" fill="#fff195"/>
+          <path id="Path_504-4" data-name="Path 504" d="M3,0H88a3,3,0,0,1,3,3V5a3,3,0,0,1-3,3H3A3,3,0,0,1,0,5V3A3,3,0,0,1,3,0Z" transform="translate(976 4225)" fill="url(#linear-gradient-4)"/>
+          <path id="Path_505-4" data-name="Path 505" d="M4.5,0H132c2.485,0,4.5,1.343,4.5,3V5c0,1.657-2.015,3-4.5,3H4.5C2.015,8,0,6.657,0,5V3C0,1.343,2.015,0,4.5,0Z" transform="translate(976 4239)" fill="url(#linear-gradient-4)"/>
+          <path id="Path_506-4" data-name="Path 506" d="M4.5,0H132c2.485,0,4.5,1.343,4.5,3V5c0,1.657-2.015,3-4.5,3H4.5C2.015,8,0,6.657,0,5V3C0,1.343,2.015,0,4.5,0Z" transform="translate(976 4253)" fill="url(#linear-gradient-4)"/>
+        </g>
+      </g>
+    </g>
+  </g>
+</svg>

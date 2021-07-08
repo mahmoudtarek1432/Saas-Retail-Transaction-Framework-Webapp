@@ -1,0 +1,38 @@
+
+<div class="header" fxLayout fxLayoutAlign="center center">
+    <div style="width: 100%;" fxLayout="row" fxLayoutAlign="start center">
+        <h3>Categories</h3>
+        <div class="splitter"></div>
+        <button mat-button style="color: rgb(80, 80, 80);" (click) ="openCategoryDialog(menu)">
+            <mat-icon>add</mat-icon>
+        </button>
+    </div>
+</div>
+
+<div class="categories" >
+    <mat-accordion *ngFor="let category of menu.categories">
+        <mat-expansion-panel class="expansion">
+            <mat-expansion-panel-header>
+                <mat-panel-title>                   
+                    <div style="width: 100%;" fxLayout="row" fxLayoutAlign="start center">
+                        <p>{{category.name}}</p>
+                        <div class="splitter"></div>
+                        <button mat-button style="color: rgb(80, 80, 80);" (click) ="deleteElement(category.id,1,menu.categories)">
+                            <mat-icon>close</mat-icon>
+                        </button>
+                        <button mat-button style="color: rgb(80, 80, 80);" (click) ="openItemDialog(category)">
+                            <mat-icon>add</mat-icon>
+                        </button>
+                    </div>
+                </mat-panel-title>
+            </mat-expansion-panel-header>
+            <p></p>
+            <p></p>
+            <div *ngFor= "let item of category.items">
+                <app-items [Item] = 'item' [MenuDelegate] = "GetMenuDelegate"></app-items>
+                
+            </div>
+            
+        </mat-expansion-panel>
+    </mat-accordion>
+</div>

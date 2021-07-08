@@ -1,0 +1,70 @@
+<div class="terminal-settings">
+    <h3>Terminal settings</h3>
+    <div class="inputs">
+        <form action="" fxLayout [formGroup] = "SettingsForm">
+            <div class="block" style="width: 40%;"  fxLayout="column">
+                <input placeholder = 'Brand Name' class="franchise" formControlName="BrandName"  name="Franschise" type="text">
+                <p class="error">{{formErrors.BrandName}}</p>
+                <label for="logo" fxLayoutAlign="center center"><span>Upload Image</span></label>
+                <input id ="logo" #logo name="logo" type="file" accept="image/*" (change) = ChangeImage(logo)> 
+            </div>
+            <div class="block" style="width: 60%;" fxLayout="column">
+                <div class="color" >
+                    <div class="block" fxLayout style=" width: 84%; height: 100%;">
+                        <input   name="Primary" formControlName="PrimaryColor" placeholder="Primary color" type="text" (input) = "onChangeColor($event,primaryColorBlock)" pattern="[a-fA-F0-9]*">
+                        <div #primaryColorBlock class="ColorBlock" [ngStyle] = "{'background-color': '#' + settings.primaryColor}"></div>
+                    </div>
+                    <p class="error">{{formErrors.PrimaryColor}}</p>
+                </div>
+                
+                <div class="color" >
+                    <div class="block" fxLayout style=" width: 84%; height: 100%;">
+                        <input  name="Secondary" formControlName="SecondaryColor" placeholder="Secondary color" type="text" (input) = "onChangeColor($event,secondaryColorBlock)" pattern="[a-fA-F0-9]*">
+                        <div #secondaryColorBlock class="ColorBlock" [ngStyle] = "{'background-color': '#' + settings.secondaryColor}"></div>
+                    </div>
+                    <p class="error">{{formErrors.SecondaryColor}}</p>
+                </div>
+
+                <div class="color">
+                    <div class="block" fxLayout style=" width: 84%; height: 100%;">
+                        <input name="Accent" formControlName="AccentColor" placeholder="Accent" type="text" (input) = "onChangeColor($event, accentColorBlock)" pattern="[a-fA-F0-9]*">
+                        <div #accentColorBlock class="ColorBlock" [ngStyle] = "{'background-color': '#' + settings.accentColor}"></div>
+                    </div>
+                    <p class="error">{{formErrors.AccentColor}}</p>
+                </div>
+
+                <div class="color" >
+                    <div class="block" fxLayout style=" width: 84%; height: 100%;">
+                        <input name="Label" formControlName="LabelColor" placeholder="Label Color" type="text" (input) = "onChangeColor($event, labelColorBlock)" pattern="[a-fA-F0-9]*">
+                        <div #labelColorBlock class="ColorBlock" [ngStyle] = "{'background-color': '#' + settings.labelColor}"></div>
+                    </div>
+                    <p class="error">{{formErrors.LabelColor}}</p>
+                </div>
+
+                <div class="color" >
+                    <div class="block" fxLayout style=" width: 84%; height: 100%;">
+                        <input name="text" formControlName="MainTextColor" placeholder="Text Color" type="text" (input) = "onChangeColor($event, textColorBlock)" pattern="[a-fA-F0-9]*">
+                        <div #textColorBlock class="ColorBlock" [ngStyle] = "{'background-color': '#' + settings.mainTextColor}"></div>
+                    </div>
+                    <p class="error">{{formErrors.MainTextColor}}</p>
+                </div>
+
+                <select name="theme" id="theme">
+                    <option value="1">DarkTheme</option>
+                </select>
+
+                <select name="TerminalMode" id="TerminalMode">
+                    <option value="1">Embeded Mode</option>
+                    <option value="2">Manual Mode</option>
+                    <option value="3">NFC</option>
+                </select>
+            </div>
+        </form>
+        <div class="submit" fxLayout>
+            <div class="splitter"></div>
+            <div *ngIf="SettingsForm.valid; then valid; else inValid;"></div>
+            <ng-template #valid><button class="valid" (click)="onSubmit()" >Submit</button></ng-template> 
+            <ng-template #inValid><button >Submit</button></ng-template> 
+        </div>
+    </div>
+</div>

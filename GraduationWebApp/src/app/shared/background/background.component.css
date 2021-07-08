@@ -1,0 +1,87 @@
+.content {
+  width: 100vw;
+  height: 100vh;
+  position: relative;
+  overflow: hidden;
+}
+
+.content .background {
+  width: 100%;
+  height: 100%;
+}
+
+.content .background .image {
+  width: 100%;
+  height: 100%;
+  background-size: 150px;
+  background-image: url("../../../assets/background.svg");
+  opacity: 0.6;
+}
+
+.content .background .filter {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(255, 255, 255, 0)), to(#fff));
+  background-image: linear-gradient(to bottom, rgba(255, 255, 255, 0), #fff);
+}
+
+.content .waves {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+.content .waves .blue {
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-image: url("../../../assets/Blue.svg");
+  height: 100%;
+  width: 100%;
+  background-size: 33vh;
+  background-repeat: no-repeat;
+}
+
+.content .waves .purple {
+  background-image: url("../../../assets/Purple.svg");
+  height: 80vmin;
+  width: 80vmin;
+  background-size: 80vmin;
+  /* transform-origin: center; */
+  position: absolute;
+  top: 50%;
+  left: 38%;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+  background-repeat: no-repeat;
+}
+
+.content .waves .pink {
+  position: absolute;
+  bottom: -4%;
+  right: 0%;
+  background-image: url("../../../assets/pink.svg");
+  height: 45vmin;
+  width: 45vmin;
+  background-size: 45vmin;
+  /* transform: translate(100%,100%); */
+  background-repeat: no-repeat;
+}
+
+.content .waves .orange {
+  position: absolute;
+  top: -4%;
+  right: 0%;
+  background-image: url("../../../assets/orange.svg");
+  height: 55vmin;
+  width: 55vmin;
+  background-size: 55vmin;
+  /* transform: translate(100%,100%); */
+  background-repeat: no-repeat;
+}
+/*# sourceMappingURL=background.component.css.map */

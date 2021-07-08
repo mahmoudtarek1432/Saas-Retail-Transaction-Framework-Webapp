@@ -1,0 +1,29 @@
+.mat-expansion-panel{
+    background-color:   rgba(187, 128, 255, 0.075);
+    text-transform: capitalize;
+    margin: 5px 0;
+}
+
+button{
+    height: 42px;
+    border: none;
+    width: 56px;
+    border-radius: 4px;
+    margin-bottom: 6px;
+    color: #fff;
+}
+.header{
+    margin: 5px 0
+}
+h3{
+    color: #575757;
+    text-transform: uppercase;
+    font-size: 24px;
+}
+
+.categories{
+    overflow-y: scroll;
+    max-height: 88%;
+    padding: 10px;
+    border-radius: 5px;
+}
